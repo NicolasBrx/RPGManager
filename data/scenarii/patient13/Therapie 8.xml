@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <game>Patient 13</game>
+  <title>Therapie 8</title>
+  <abstract>Les patiens sont projetés dans le passé de l'hopital pour revivre la naissance du mange-main. Pour revenir dans le présent, il faut rerouver les notes de Morgue.</abstract>
+  <primeevents>
+    <event order="0" followup="1">Pour les patients, tout semble normal... à l'exception que l'hopital est peuplé d'etres fantomatiques. L'hopital est également plus lumineux et moins sale.</event>
+    <event order="1" followup="2">Si les patients peuvent distinguer des formes fantomatiques, aucune interaction n'est possible. Ils peuvent cependant discener les comportements de patients et des blouses blanches.</event>
+    <event order="2" followup="3">Les patients peuvent acceder a une salle aujourd'hui murée, le vivarium, face a la laverie : de grandes fenetres translucides, un plafond haut et arrondis laissant passer une forte lumiere. D'enormes plantes de toutes les couleurs s'elevent partout dans la piece, on y trouve aussi des cages vitrees au fond de la piece, masquees par les plantes.</event>
+    <event order="3" followup="4">Au sol, de grandes dalles blanches forment un chemin. En les suivants, on visite la salle, on voit des reptiles et des basilics puis un laboratoire de fortune.</event>
+    <event order="4" followup="5">Ici travaille le supérieur Moreau, ses lunettes rondes et son sinistre sourire. Il ne sort jamais et se nourrit uniquement avec ce qu'il produit dans la serre... ou dans son laboratoire. Il étudie actuellement la Magra, le langage des reptiles.</event>
+    <event order="5" followup="6">Il n'est pas surpris de l'irruption des personnages, il semble en fait les attendre. Il est calme, courtois et réponds à leurs questions : il ne sait pas ce qu'ils font là, mais il faut qu'ils le découvre pour pouvoir repartir. Il a entendu dire aussi que Morgue, avant de disparaître, aurait laissé des indications sur la façon de s'enfuir mais les notes sont maintenant gardées par le directeur dans son bureau.</event>
+    <event order="6" followup="7">Après cette entrevue, les formes fantomatiques sont bien plus tangibles et peuvent réagir en cas de bruits forts. Il faudra donc faire attention pour se rendre dans le batiment du directeur.</event>
+    <event order="7" followup="8">Le Directeur est introuvable mais ses bureaux n'ont pas changés : ambiance rétro, silence de mort. Dans une vitrine, les patients peuvent trouver un carnet de notes brulé et abimé avec des croquis du symbole de l'hopital.</event>
+    <event order="8" followup="9">A l'interieur, des notes sont écrite a l'enver et la lecture en est difficile (-3 sang froid et lucidité). En gros, Morgue explique qu'on peut tracer des ouvertures vers d'autres temps et d'autres lieux grace a l'hemographie (ecriture ensanglantee).</event>
+    <event order="9" followup="10">Cependant, un point capital, le sang doit etre prélevé sur des personnes mortes.</event>
+    <event order="10" followup="11">A partir de ce moment, les formes peuvent maintenant voir et toucher les patients. Le personnel medical peut donc se lancer a leur poursuite.</event>
+    <event order="11" followup="12">Les patients apercevront Mr Evasion/Passe-Passe accompagné de Griffe et Cyclope. Ils se rendent dans l'infirmerie juste avant qu'une blouse blanche de grande taille y entre a son tour. La porte de l'infirmerie est fermee a clef et des bruits sourds s'en echappent.</event>
+    <event order="12" followup="13">La porte s'ouvre sur les trois patients qui sortent rapidement... et sur le cadavre de Harold Kemper. Au sol, les gouttes de sang s'agitent comme mue par une vie propre. Si un personnage prend du sang sur une feuille vierge, des phrases et des mots se forment, minuscules et relatant des souvenirs.</event>
+    <event order="13" followup="14">Avec le sang, il est aussi possible de dessiner une forme rectangulaire pour dessiner une porte vers un autre temps et un autre lieu.</event>
+    <event order="14">La-dite porte, si faite comme il faut, ramene les patients en leur temps dans un chambre vide du second étage. La porte disparait, pas son encadrement qui mettra plus de temps. L'elements ayant servi a recuperer le sang devient indestructible et réapparaitra toujours.</event>
+  </primeevents>
+  <secondevents>
+    <event order="0" followup="1">Certains chambres ne sont pas encore des chambres mais de véritables salle de tortures : hydrothérapie, électrothérapie, ...</event>
+    <event order="1">Il y a des dessins sur certains murs, une thérapie par l'art. Régulièrement, les patients voient "Recuperez SON sang !"</event>
+  </secondevents>
+  <randomevents>
+    <event>Les patients peuvent eventuellement reconnaitre Défiguré dans les blouse-blanches qui peuvent les pourchasser.</event>
+  </randomevents>
+  <results>
+    <success>Poursuite de l'enquete.</success>
+    <failure>Prisonnier du temps.</failure>
+  </results>
+</scenario>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <game>Patient 13</game>
+  <title>Therapie 4</title>
+  <abstract>L'agression d'un membre du personnel (Butcher, qui se retrouve en fauteuil roulant et la tête bandée) provoque un huis clos parmis certains patients. Le directeur reclame son suspect, il n'accorde que 4h.</abstract>
+  <primeevents>
+    <event order="0" followup="1">Flashback: Chakra - Alors qu'il faisait couler de la cire sur ses tatouages pour les protéger, une blouse blanche a voulu confisquer la bougie ce qui a fait entrer Chakra dans une colère noire, ce qui lui a valu les foudres de Butcher qui passait par là.</event>
+    <event order="1" followup="2">Flashback: Phénix - Le personnel ne sait pas comment elle a réussi mais elle a mis la main sur un briquet et entrepris de mettre le feu à l'hôpital pour retrouver son ami journaliste qui aurait du se dévoiler. C'est Butcher qui est intervenu pour mettre fin à cette folie et envoyer Phénix faire une séance de camisole.</event>
+    <event order="2" followup="3">Flashback: Défiguré - Il ne s'est rien passé avec cet homme, il était juste là en train de discuter avec Phénix quand le directeur est arrivé dans la salle.</event>
+    <event order="3" followup="4">Flashback: Mr. Clou - Une sombre dispute au sujet des clous que son corps rejette après un traitement a fait que Butcher a du intervenir pour administrer le traitement à Clou qui refusait de s'y soumettre.</event>
+    <event order="4" followup="5">Flashback: Mime - Mime a obéit à un message sur sa paupière qui lui commandait de systématiquement briser toutes les assiettes qu'il voyait. Butcher a décidé du lit à clou pour le calmer.</event>
+    <event order="5">Flashback: Calme - Ce patient récemment arrivé subissait une crise de colère intense après chaque traitement. Butcher a voulu assister personnellement à une succession de prises successives pour l'analyser.</event>
+  </primeevents>
+  <secondevents>
+    <event order="0" followup="1">Le retour du mange-main : il peut être aperçu sous une porte, ses pas se font entendre et le bruit caractéristique est reconnu par un ancien patient comme etant ceux d'un blouse-blanche disparu.</event>
+    <event order="1" followup="2">Un patient conduit dans a l'infirmerie pourrait ne jamais revenir apres avoir commis un acte grave.</event>
+    <event order="2">Le patient Leonard, inventeur, a disparu purement et simplement.</event>
+  </secondevents>
+  <randomevents>
+    <event>Rumeur sur le directeur : il a des bouches sur corps, il mange la tête de certains patiens, ...</event>
+    <event>Rumeur sur Léonard : il a réussi à s'échapper ! La meilleure preuve, c'est qu'il n'est plus dans sa chambre et qu'elle était fermée à clé.</event>
+    <event>Défiguré peut se désigner comme ayant été présent avec les joueurs pour leur fournir un alibi.</event>
+    <event>Tirage au sort.</event>
+    <event>Les chambres ont été changées de place... mais la disposition est exactement la même qu'avant les derniers événements.</event>
+  </randomevents>
+  <results>
+    <success>Le patient désigné est conduit à l'infirmerie, laissé aux bons soins de Butcher.</success>
+    <failure>Le directeur désigne quelques coupables au hasard.</failure>
+  </results>
+</scenario>

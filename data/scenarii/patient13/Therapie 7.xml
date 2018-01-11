@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <game>Patient 13</game>
+  <title>Therapie 7</title>
+  <abstract>Les patients se retrouvent coincés dans une chambre avec un blouse blanche et une patiente armée au bord de la crise de nerf. Seul cet infirmier peut les aider à trouver des information sur Griffe ou Cyclope.</abstract>
+  <primeevents>
+    <event order="0" followup="1">Shilton se trouve dans la chambre d'Alice, une nouvelle patiente. Si les joueurs entrent dans la pièce, Alice profitera de l'inattention de l'infirmier pour sortir un revolver et braquer tout ce beau monde. Elle ordonnera aux patients de fermer la porte avant de les faire s'asseoir devant.</event>
+    <event order="1" followup="2">Alice a 25 ans et les cheveux blonds. Elle est nerveuse et sur le qui-vive, agitant dangereusement le revolver.</event>
+    <event order="2" followup="3">Elle affirme avoir été violée à de nombreuses reprises par le blouse blanche. Elle a soif de vengeance et n'imagine plus que deux solutions : tuer ou être tuée.</event>
+    <event order="3" followup="4">Bien évidemment, le tout est accentué pa les multiples personnalités de la jeune femme. Chaque personnalité peut se manifester physiquement en sortant du corps de la jeune femme qui regarde alors ses ongles pendant que celle-ci agit, parle, se déplace.</event>
+    <event order="4" followup="5">Les personnalités : le bourreau, l'ancien, la petit fille, la blouse blanche.</event>
+    <event order="5">Les murs sont soudains agités comme si c'étaient de simples rideaux. C'est la manifestation de l'inconscient d'Alice. Des mains finiront par en sortir pour agripper et griffer les occupants de la pièce. Il ne reste alors pas beaucoup de temps avant de mourir là dedans.</event>
+  </primeevents>
+  <secondevents>
+    <event order="0" followup="1">Il faut garder les patients sous tension le plus longtemps possible avant d'arrêter la séance quand elle retombe.</event>
+    <event order="1">Tout le long, Shilton n'en mène pas large. Visiblement, Alice a raison, mais il promettra de toute dire aux patients si ces derniers l'aident à sortir de là vivant.</event>
+  </secondevents>
+  <randomevents>
+    <event>Les cobayes de Butcher acquierent, pour certains, la capacité de voir les fantômes (comme celui qui a vu Rouge parler avec Léonard).</event>
+    <event>Un patient revient de Camisole. Il est changé, sage et n'exprime plus aucune colère mais les patients le soupconnent d'avoir pactisé avec les blouse-blanches qui sont plus permissives avec lui. C'est le personnel qui fait exprès de laisser penser ca. Le patient pourrait bien finir égorgé.</event>
+    <event>Si Shilton s'en sort vivant, il dira tout ce que les patients veulent savoir avant de se faire assassiner par le mange-main la nuit suivante...</event>
+    <event>Si Alice est morte, certains patients en voudrant aux personnages.</event>
+  </randomevents>
+  <results>
+    <success>Des infos...</success>
+    <failure>Rien... voire la mort.</failure>
+  </results>
+</scenario>

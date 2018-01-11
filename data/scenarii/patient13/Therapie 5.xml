@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <game>Patient 13</game>
+  <title>Therapie 5</title>
+  <abstract>Alors qu'ils sont en train de déjeuner au refectoire, les patients voient l'un des leur se lever et faire tomber sa chaise. Il est hystérique, bave et faits de grands gestes. Il finit par planter sa fourchette dans le cou d'un autre patient. Il est finalement maitrisé. Tout va bien... sauf que c'est la cinquième fois en trois jours.</abstract>
+  <primeevents>
+    <event order="0" followup="1">Les patients doivent comprendre le point commun de toutes ces attaques : la chaise du refectoire, ramené du débarras quand la précédente a été fracassée sur le crane de Butcher.</event>
+    <event order="1" followup="2">Le siège est toujours au refectoire, marqué de sang séché depuis longtemps.</event>
+    <event order="2" followup="3">En s'asseyant, le patient aura une vision : assis sur une chaise face a un tunnel noir et dont les murs sont couverts de griffures. Des traces de doigts ensanglantées forme le mot mange-main.</event>
+    <event order="3" followup="4">Une ombre passe soudain et se fige, la silouhette d'un homme aux yeux rouges observe le patient avant que de nombeuses mains sortent du mur pour saisir le patient.</event>
+    <event order="4" followup="5">Retour à la réalité, le patient commence à devenir parano, pensant que tout le monde conspire contre lui.</event>
+    <event order="5" followup="6">Il voit des insectes sortir des bouches et des oreilles des autres patients. Il vit un enfer hallucinatoire.</event>
+    <event order="6" followup="7">Concernant les yeux rouges : les patients les plus anciens leur parleront de Rouge, un ancien interné aujourd'hui mort qui prétendait être harcelé par des nuées d'insectes. Il a finit par se pendre en utilisant la fameuse chaise.</event>
+    <event order="7" followup="8">Pour pouvoir se sortir de ses hallucinations, les patients doivent exorciser la chaise (merci Livre, Marie ou Pierre).</event>
+    <event order="8">Il suffit de faire couler le sang de la victime sur l'objet puis de le bruler.</event>
+  </primeevents>
+  <secondevents>
+    <event order="0" followup="1">Shilton, blouse blanche, peut constater que les patients s'intéresse au mange-main;</event>
+    <event order="1" followup="2">Il oubliera de fermer leur chambre un soir.</event>
+    <event order="2" followup="3">Le patient pourra alors sortir et croiser le fameux mange-main (Shilton espère qu'ils trouvent un moyen de s'en débarrasser).</event>
+    <event order="3" followup="4">Le patient pourra l'apercevoir devant une chambre, marquer la porte et entrer pour exécuter le patient à l'intérieur.</event>
+    <event order="4">Il est difficile, pour ne pas dire impossible de s'y opposer pour l'instant.</event>
+  </secondevents>
+  <randomevents>
+    <event>Dans le couloir du rez de chaussée se trouve un pot de peinture blanche récemment utilisé. Mais impossible de savoir pourquoi. Le pot finira par être récupéré par une blouse blanche qui le remettra dans le débarras à côté.</event>
+    <event>Le patient désigné coupable lors de la thérapie précédente (Calme si réussi) est revenu... en tant que blouse blanche visiblement lobotomisé.</event>
+  </randomevents>
+  <results>
+    <success>Tout rentre dans l'ordre si l'exorcisme réussit.</success>
+    <failure>Les victimes de la malédictions peuvent finir dans l'abîme pour les plus malchanceuses, abruties de médicaments pour les autres.</failure>
+  </results>
+</scenario>

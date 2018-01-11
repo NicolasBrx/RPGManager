@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <game>Patient 13</game>
+  <title>Therapie 6</title>
+  <abstract>Le but est de faire découvrir l'Abyme aux patients qui n'en ont, au mieux, que très peu entendu parler. Pour commencer, un patient se trouve aux toilettes quand une silouhette apparait dans le troisième miroir. Un patient récemment assassiné par le mange-main s'approche du reflet du personnage pour lui murmurer "Larousse appelle l'Abyme". Il a le teint verdatre et les mains tranchées et hantera la patient jusqu'à ce qu'il accède à sa demande.</abstract>
+  <primeevents>
+    <event order="0" followup="1">Il faut trouver Larousse. Marie ou Livre peuvent donner une piste sur ce patient qui apprenait les dictionnaires par coeur. Personne ne sait ce qu'il est advenu de lui.</event>
+    <event order="1" followup="2">Se renseigner sur l'Abyme. Il faut comprendre qu'il s'agit d'un lieu. Ensuite, il faut trouver un moyen d'accéder aux sous-sols.</event>
+    <event order="2" followup="3">Accès aux sous-sols. Soit en ayant remarqué un ascenceur dans l'infirmerie où les patients qui entrent ne reviennent jamais. Ils ont pu passer à la morgue par là suite à des expériences de Butcher. Peu de passages, mais il faut être relativement discrets malgré tout.</event>
+    <event order="3" followup="4">Aux sous sols, il faut passer la morgue portant les traces d'une expérience de Butcher.</event>
+    <event order="4" followup="5">Passée la morgue,  il n'y a plus grand monde pour déranger les patients. Au final, il finiront par trouver Larousse dans une des cages de l'Abyme.</event>
+    <event order="5" followup="6">A plusieurs mètres au dessus du sol, il est possible d'échanger avec lui par le biais d'une passerelle.</event>
+    <event order="6" followup="7">Léthargique, il n'acceptera de parler qu'en échange de la promesse d'une aide pour qu'il s'échappe de là (mais c'est impossible).</event>
+    <event order="7" followup="8">Explication donnée : un de ses amis (celui tué et donnant la mission) lui a fait une proposition, celle de tuer une certaine blouse blanche au moment voulu. En contrepartie, ils pourraient avoir tous les objets qu'ils voudraient sans payer.</event>
+    <event order="8" followup="9">Larousse n'a pas pu prendre part au meurtre mais connait trois patients qui devait le faire : Passe-passe, Griffe et Cyclope.</event>
+    <event order="9">Pour savoir ce qu'ils sont devenus, il faut consulter le registre des internements dont seul Shilton possède un exemplaire.</event>
+  </primeevents>
+  <secondevents>
+    <event order="0" followup="1">Dans les sous sols, il y a la porte rouge, murée, de l'OD.</event>
+    <event order="1">Dans les sous sols, des murmures se font entendre de la pièce aux oubliés.</event>
+  </secondevents>
+  <randomevents>
+    <event>Un patient peut se révéler aux personnages. Il expliquera avoir vu Léonard parler avec un autre patient bizarre. Il avait les yeux rouges et restait immobile et muet, se contentant d'écouter.</event>
+  </randomevents>
+  <results>
+    <success>Des infos...</success>
+    <failure>Rien...</failure>
+  </results>
+</scenario>

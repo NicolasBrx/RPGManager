@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p13npc>
+  <npc type="patient">
+    <name>Chakra</name>
+    <room>-</room>
+    <supervisor>Stein</supervisor>
+    <secret>Il cherche le troisième oeil lui permettant de voir LA vérité. C'est son but ici.</secret>
+    <allies>
+      <ally>Clef</ally>
+    </allies>
+    <ennemies>
+      <ennemy>Défiguré</ennemy>
+      <ennemy>Gord</ennemy>
+      <ennemy>Marie</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 40 ans.</note>
+      <note>"Ces formules ne sont pas faites pour être lues, elles sont faites pour protéger."</note>
+      <note>Son corps est couvert de formules sacrées diverses..</note>
+      <note>Il protége ses tatoutages avec la cire de bougies qu'il se procure auprès de Clef.</note>
+      <note>Au creux de ses main se trouve un oeil mystique capable de lui révéler les gens par simple imposition.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Clef</name>
+    <room>-</room>
+    <supervisor>Marche</supervisor>
+    <secret>Il a autour du cou un clé avec le numéro 310.</secret>
+    <allies>
+      <ally>Gord</ally>
+    </allies>
+    <ennemies>
+      <ennemy>Mime</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 40 ans.</note>
+      <note>"J'te jure, j'l'ai trouvé !"</note>
+      <note>Kleptomane, c'est lui qu'il faut voir pour se procurer des objets intredits.</note>
+      <note>Il porte un chapeau haut de forme et un costume trois pièces, avec un accent irlandait à couper au couteau.</note>
+      <note>Dans l'hopital, il a réussi à cacher des couteaux et un revolver chargé.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Bequille</name>
+    <room>-</room>
+    <supervisor>Marche</supervisor>
+    <secret>Bequille avait accepté d'etre le cobaye de Butcher avant que celui-ci utilise Vador.</secret>
+    <allies>
+      <ally>Le Fou</ally>
+    </allies>
+    <ennemies>
+      <ennemy>Vador</ennemy>
+    </ennemies>
+    <notes>
+      <note>18 ans.</note>
+      <note>"Laissez moi !"</note>
+      <note>Elle a les jambes fragiles et utilise des béquilles pour se déplacer le plus souvent.</note>
+      <note>Elle passe le plus clair de son temps dans sa chambre a dessiner des animaux fantastiques sur les murs.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Défiguré</name>
+    <room>-</room>
+    <supervisor>Kempler</supervisor>
+    <secret>C'est un blouse blanche infiltré.</secret>
+    <allies>
+      <ally>aucun</ally>
+    </allies>
+    <ennemies>
+      <ennemy>aucun</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 30 ans.</note>
+      <note>"Sois patient, tout arrive à point."</note>
+      <note>Son visage est brûlé et fondu par endroit ne lui laissant qu'un oeil valide et une voix éraillée.</note>
+      <note>Pour passer le temps, il confectionne des petites poupées vaudou et les offres à ceux qui l'aident.</note>
+      <note>Il est attiré par Phénix et cherche à se faire passer pour son fameux collègue venu la sauver.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Le Cagoulé</name>
+    <room>-</room>
+    <supervisor>Stein</supervisor>
+    <secret>Sa cagoule cache en fait le visage originel de Mime.</secret>
+    <allies>
+      <ally>aucun</ally>
+    </allies>
+    <ennemies>
+      <ennemy>aucun</ennemy>
+    </ennemies>
+    <notes>
+      <note>Il ne parle pas.</note>
+      <note>Il ne parle pas et ne montre jamais son visage caché par une cagoule noire.</note>
+      <note>Il n'est pas dangereux mais peut se montrer agressif si on est trop entreprenant envers lui.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Le Fou</name>
+    <room>-</room>
+    <supervisor>Vigorsen</supervisor>
+    <secret>Le fou a trouvé la carte d'une voute céleste inconnue. Il en cherche un morceau manquant.</secret>
+    <allies>
+      <ally>Béquille</ally>
+    </allies>
+    <ennemies>
+      <ennemy>aucun</ennemy>
+    </ennemies>
+    <notes>
+      <note>16 ans.</note>
+      <note>"Tu gardes ca pour toi, mais j'ai entendu dire que..."</note>
+      <note>Il est très désordonné et bourré de tics.</note>
+      <note>C'est un indic hors pair, la meilleure source de renseignements dans l'hopital.</note>
+      <note>Ce sont en fait les blouses blanches qui lui donnent des infos pour provoquer diverses choses.</note>
+      <note>Il a accepté de jouer double-jeu pour ne plus subir la camisole.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Le Cagoulé</name>
+    <room>-</room>
+    <supervisor>Stein</supervisor>
+    <secret>Sa cagoule cache en fait le visage originel de Mime.</secret>
+    <allies>
+      <ally>aucun</ally>
+    </allies>
+    <ennemies>
+      <ennemy>aucun</ennemy>
+    </ennemies>
+    <notes>
+      <note>Il ne parle pas.</note>
+      <note>Il ne parle pas et ne montre jamais son visage caché par une cagoule noire.</note>
+      <note>Il n'est pas dangereux mais peut se montrer agressif si on est trop entreprenant envers lui.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Les frères</name>
+    <room>-</room>
+    <supervisor>Kempler</supervisor>
+    <secret>Il est hanté par un patient envoyé à la mort après que les deux têtes fussent d'accord.</secret>
+    <allies>
+      <ally>aucun</ally>
+    </allies>
+    <ennemies>
+      <ennemy>aucun</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 30 ans.</note>
+      <note>"Oui" - "Non"</note>
+      <note>Un corps avec deux têtes identiques mais jamais d'accord.</note>
+      <note>Grand noir de près de 2m.</note>
+      <note>Ils font office de médiateur ou de guide quand une question ne trouve pas de réponse.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Gord</name>
+    <room>-</room>
+    <supervisor>Marche</supervisor>
+    <secret>Il est le porte parole dirigeant de l'OD.</secret>
+    <allies>
+      <ally>tout le monde</ally>
+    </allies>
+    <ennemies>
+      <ennemy>aucun</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 50 ans.</note>
+      <note>"Cool."</note>
+      <note>"J'ai un truc pour toi."</note>
+      <note>Crane rasé et ongles rongés jusqu'au sang.</note>
+      <note>Il est l'une des figure incontournables de l'hopital et s'en vante.</note>
+      <note>Il est le dealer officiel de l'hopital et n'est pas du contre encore plus de folie.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Livre</name>
+    <room>-</room>
+    <supervisor>Vigorsen</supervisor>
+    <secret>Il est persuadé que Kafka et les autres sont des réincarnations d'anciennes divinités.</secret>
+    <allies>
+      <ally>Zed</ally>
+      <ally>Marie</ally>
+    </allies>
+    <ennemies>
+      <ennemy>aucun</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 50 ans.</note>
+      <note>"Ca me dit quelque chose, attend que je vérifie"</note>
+      <note>Il passe le plus clair de son temps à chercher un rituel pour ramener les divinités a leur forme première.</note>
+      <note>Il est le bibliothécaire de l'hopital, poste accordé par le directeur contre un service futur.</note>
+      <note>Il tient en secret un journal où il note tout ce qu'il apprend sur l'hopital et le personnel.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Marie</name>
+    <room>-</room>
+    <supervisor>Kemper</supervisor>
+    <secret>Marie était une supérieure avant d'être internée et ne se souvient pas de comment elle est arrivée là.</secret>
+    <allies>
+      <ally>Livre</ally>
+    </allies>
+    <ennemies>
+      <ennemy>Mime</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 70 ans.</note>
+      <note>"Je vois, je vois"</note>
+      <note>Elle s'est retrouvée patiente après l'incendie du dernier étage et la mort de tous ses patients, mais n'a aucun souvenir de ça.</note>
+      <note>Elle est la personne la plus respectée des autres patients, avec Morgane.</note>
+      <note>Elle est medium et peut communiquer avec les morts qui restent à ses côté via la boite d'allumettes magique.</note>
+      <note>Elle ne tire jamais le numéro 13.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Mime</name>
+    <room>-</room>
+    <supervisor>Stein</supervisor>
+    <secret>Mime connait le secret de Marie. Des messages s'inscrivent sur sa paupière depuis.</secret>
+    <allies>
+      <ally>aucun</ally>
+    </allies>
+    <ennemies>
+      <ennemy>aucun</ennemy>
+    </ennemies>
+    <notes>
+      <note>"Hey toi ! Viens là !</note>
+      <note>Il raconte qu'il a été défiguré et a développé un don pour prendre n'importe quelle apparence.</note>
+      <note>Mais c'est en fait une malédiction lui ayant fait perdre la tête, il ne sait plus qu'il est vraiment.</note>
+      <note>Il a une forte propension à la violence et est accro aux pillules de Gord.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Mr. Clou</name>
+    <room>-</room>
+    <supervisor>Vigorsen</supervisor>
+    <secret>Avec les clous, il a commencé à creuser un tunnel pour s'évader.</secret>
+    <allies>
+      <ally>Zed</ally>
+      <ally>Livre</ally>
+    </allies>
+    <ennemies>
+      <ennemy>aucun</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 50 ans.</note>
+      <note>"Ah... Excuse moi..."</note>
+      <note>Après chaque traitement, des clous poussent sous sa peau et son ejecté de son corps.</note>
+      <note>Malgré les cicatrices, clous ne ressent rien et effraye les autres patients quand ca arrive.</note>
+      <note>Il préfère s'en amuser même si devoir changer de vêtements à chaque fois l'ennui.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Morgane</name>
+    <room>-</room>
+    <supervisor>Stein</supervisor>
+    <secret>Elle a conclu un pacte avec le directeur pour ne plus souffrir.</secret>
+    <allies>
+      <ally>aucun</ally>
+    </allies>
+    <ennemies>
+      <ennemy>Mime</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 20 ans.</note>
+      <note>Elle ne parle pas et répond aux questions par un sourire chaleureux</note>
+      <note>Cheveux noirs, habits noirs, la gothique idéale et magnifique.</note>
+      <note>Une petite paire d'ailes blanches se trouve entre ses homoplates.</note>
+      <note>Elle semble positivement ravie et heureuse, tout le temps.</note>
+      <note>Avec une baguette qu'elle prétend magique, elle essaye d'aider les gens à aller mieux.</note>
+      <note>Du fait de sa bonne humeur, les blouses blanches ne l'apprécient pas mais ont peur d'une rebellion si ils s'en prennent à elle.</note>
+      <note>La nuit, elle rêve de ce que lui a fait le directeur pour qu'elle ne ressent plus la peur et la douleur.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Phénix</name>
+    <room>-</room>
+    <supervisor>Vigorsen</supervisor>
+    <secret>Phénix pretend être une journaliste enquêtant sur l'hopital.</secret>
+    <allies>
+      <ally>Défiguré</ally>
+    </allies>
+    <ennemies>
+      <ennemy>aucun</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 30 ans.</note>
+      <note>"C'est dément, vous êtes fou !"</note>
+      <note>Magnifique femme rousse d'une trentaine d'année.</note>
+      <note>Elle est obsédée par le feu et les flammes et ses bras en portent les stygmates.</note>
+      <note>Elle affirme être saine d'esprit et espère qu'un collègue viendra la sauver.</note>
+      <note>Chaque nouveau patient est potentiellement le-dit collègue.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Pierre</name>
+    <room>-</room>
+    <supervisor>Kemper</supervisor>
+    <secret>Il est passe-muraille.</secret>
+    <allies>
+      <ally>aucun</ally>
+    </allies>
+    <ennemies>
+      <ennemy>aucun</ennemy>
+    </ennemies>
+    <notes>
+      <note>35 ans.</note>
+      <note>"Ecoute moi."</note>
+      <note>"La bouche a dit que..."</note>
+      <note>Il est le prophète de la bouche dessinée dans sa chambre.</note>
+      <note>Sa peau a la couleur et la texture de la pierre.</note>
+      <note>Il refuse de sortir de l'hopital, la bouche a besoin de lui.</note>
+      <note>Il propagera la parole de la bouche et attirera de nouveaux adeptes jusqu'à la guerre que celle-ci annonce.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Zed</name>
+    <room>-</room>
+    <supervisor>Marche</supervisor>
+    <secret>Zed devient vieux et se transforme. A terme, il deviendra cannibale.</secret>
+    <allies>
+      <ally>Gord</ally>
+      <ally>Livre</ally>
+    </allies>
+    <ennemies>
+      <ennemy>aucun</ennemy>
+    </ennemies>
+    <notes>
+      <note>C'est un extra-terrestre à la peau entre le vert et le jaune.</note>
+      <note>Il est calme, presque apathique.</note>
+      <note>Il affirme être sain d'esprit et rester ici pour se cacher.</note>
+      <note>Une autre race alien veut exterminer son peuple car ils sont tous homosexuels.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Le Cannibale</name>
+    <room>A19</room>
+    <supervisor>-</supervisor>
+    <secret>-</secret>
+    <allies>
+      <ally>aucun</ally>
+    </allies>
+    <ennemies>
+      <ennemy>aucun</ennemy>
+    </ennemies>
+    <notes>
+      <note>Ancien patient du nom de Porc.</note>
+      <note>Il occupe la pièce A19 a même le sol.</note>
+      <note>Son rôle est d'ingérer tous les déchets trop gros pour les scarabés.</note>
+      <note>Son corps est devenu obèse, sans forme, incapable de se déplacer.</note>
+    </notes>
+  </npc>
+  <npc type="patient">
+    <name>Le Dératiseur</name>
+    <room>-</room>
+    <supervisor>-</supervisor>
+    <secret>-</secret>
+    <allies>
+      <ally>aucun</ally>
+    </allies>
+    <ennemies>
+      <ennemy>aucun</ennemy>
+    </ennemies>
+    <notes>
+      <note>Il déambule dans les couloirs pour chasser les insectes et les rats.</note>
+      <note>Il se nourrit de sa chasse.</note>
+      <note>Personne ne voit jamais sous son masque à gaz.</note>
+      <note>Personne ne voit les insectes en question... sauf avec des psychostimulants puissants.</note>
+    </notes>
+  </npc>
+  <npc type="supervisor">
+    <name>Le directeur</name>
+    <office>Bât. du directeur</office>
+    <secret>Il est une créature démoniaque gouvernée par des voix intérieures. Il pense rêver l'hôpital et est convaincu d'être le patient originel, Morgue.</secret>
+    <OHS>oui</OHS>
+    <patients>
+      <name>aucun</name>
+    </patients>
+    <allies>
+      <ally>none</ally>
+    </allies>
+    <ennemies>
+      <ennemy>none</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 50 ans</note>
+      <note>Il mène parfois des inspections surprises craintes de tous les patients.</note>
+      <note>Personne ne connaît son vrai nom... pas même lui.</note>
+      <note>Il parle d'une voix rauque et caverneuse tout en gardant sa bouche fermée.</note>
+      <note>Sa vraie bouche, garnie de dents acérées, se trouve sur son torse.</note>
+      <note>Quand il s'enerve, ses yeux deviennent totalement noirs.</note>
+      <note>"Vous allez malheureusement nous contraindre à sévir."</note>
+      <note>"Je veux bien vous laisser une dernière chance mais il faudra me rendre un petit service."</note>
+    </notes>
+  </npc>
+  <npc type="supervisor">
+    <name>Butcher</name>
+    <office>A15,S13</office>
+    <secret>Il a fait de Vador une mère porteuse pour ce qu'il espère être un être de folie pure.</secret>
+    <OHS>oui</OHS>
+    <patients>
+      <name>Vador</name>
+    </patients>
+    <allies>
+      <ally>none</ally>
+    </allies>
+    <ennemies>
+      <ennemy>none</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 40 ans</note>
+      <note>Ses seuls patients sont des morts, qu'ils le soient ou qu'ils soient des cobayes.</note>
+      <note>Il dissèque des cerveaux persuadé d'y trouver une déformation physique cause de la folie.</note>
+      <note>Il est surnommé Mr. Lobotomie.</note>
+      <note>La vie des patients n'a aucune valeur à ses yeux.</note>
+      <note>"Voyons, c'est un hopital ici, pas une prison."</note>
+      <note>"Appelez-moi professeur."</note>
+    </notes>
+  </npc>
+  <npc type="supervisor">
+    <name>Kemper</name>
+    <office>A5</office>
+    <secret>Il s'est servi de sa position influente pour y faire entrer son fils Harold comme blouse blanche. Celui-ci a fini étranglé par les patients inconnus. Kemper ne cherche depuis que la vengeance.</secret>
+    <OHS>oui</OHS>
+    <patients>
+      <name>Défiguré</name>
+      <name>Les frères</name>
+      <name>Marie</name>
+      <name>Pierre</name>
+    </patients>
+    <allies>
+      <ally>none</ally>
+    </allies>
+    <ennemies>
+      <ennemy>none</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 40 ans</note>
+      <note>Aucun patient n'est véritablement innocent à ses yeux.</note>
+      <note>Les patients l'appellent Grimace à cause de la déformation de son visage.</note>
+      <note>Il a un ton strict et militaire, cherche à tout prix le respect.</note>
+      <note>Sadique et patient, il aime prendre son temps pour regarder et avant de parler aux patients.</note>
+      <note>"Il faut etre patient."</note>
+    </notes>
+  </npc>
+  <npc type="supervisor">
+    <name>Marche</name>
+    <office>A6</office>
+    <secret>Perd toute contenance à la référence de sa mère devenue folle. Chef de l'O.D..</secret>
+    <OHS>oui</OHS>
+    <patients>
+      <name>Béquille</name>
+      <name>Clef</name>
+      <name>Gord</name>
+      <name>Zed</name>
+      <name>Cochon</name>
+    </patients>
+    <allies>
+      <ally>none</ally>
+    </allies>
+    <ennemies>
+      <ennemy>none</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 40 ans</note>
+      <note>Eleve 4 grosses truies dans son bureau, ses "filles".</note>
+      <note>Ne regarde jamais le patient dans les yeux.</note>
+      <note>N'est méchant que par nécessité et est effrayé par le directeur.</note>
+      <note>Possède beaucoup de livre sur les relations avec les patients.</note>
+      <note>"Désolé, ne faites pas attention à mes filles, elles ne sont pas bien méchantes si on les embête pas."</note>
+      <note>"Je suis désolé, mais c'est pour votre bien."</note>
+    </notes>
+  </npc>
+  <npc type="supervisor">
+    <name>Vigorsen</name>
+    <office>B12</office>
+    <secret>Sa machine à écrire lui parle et est devenue son amie.</secret>
+    <OHS>oui</OHS>
+    <patients>
+      <name>Le fou</name>
+      <name>Livre</name>
+      <name>Monsieur Clous</name>
+      <name>Phenix</name>
+      <name>Cromagnon</name>
+    </patients>
+    <allies>
+      <ally>none</ally>
+    </allies>
+    <ennemies>
+      <ennemy>none</ennemy>
+    </ennemies>
+    <notes>
+      <note>35 ans</note>
+      <note>Les ordres données par la machine sont de plus en plus étranges et Vigorsent les suit aveuglément.</note>
+      <note>Femme rousse, 1m70, tailleur strict.</note>
+      <note>La santé et les remèdes par la volonté, ce qu'elle s'applique avec soin.</note>
+      <note>Elle marche pied nu dans son bureau dont le sol est tapissé de bouts de verre brisé.</note>
+      <note>Répète les propos des patients en changeants quelques mots.</note>
+      <note>Se contente de oui ou de non pour répondre, hautaine mais courtoise.</note>
+      <note>"Je comprends."</note>
+      <note>"Je vois."</note>
+      <note>TEST</note>
+    </notes>
+  </npc>
+  <npc type="supervisor">
+    <name>Morgenstern</name>
+    <office>B13</office>
+    <secret>Ancien patient, supérieur de garde la nuit.</secret>
+    <OHS>non</OHS>
+    <patients>
+      <name>Aucun en particulier</name>
+    </patients>
+    <allies>
+      <ally>none</ally>
+    </allies>
+    <ennemies>
+      <ennemy>none</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 50 ans</note>
+      <note>1m90, peau noire, toujours habillé d'une chemise et d'un pantalon à bretelles.</note>
+      <note>Ne travaille que la nuit, jamais avec ses collègues.</note>
+      <note>Persuadé qu'il est toujours interné dans une sorte de tests glauque.</note>
+      <note>Répète tout ce qu'il entend pour trouver la phrase clef qui va tout révéler.</note>
+      <note>Ne fait rien d'autre que tout répéter.</note>
+    </notes>
+  </npc>
+  <npc type="supervisor">
+    <name>Stein</name>
+    <office>A16</office>
+    <secret>Veut réunir tous les objets d'un vieux cliché sépia pour ressuciter quelqu'un.</secret>
+    <OHS>oui</OHS>
+    <patients>
+      <name>Chakra</name>
+      <name>Le cagoulé</name>
+      <name>Mime</name>
+      <name>Morgane</name>
+    </patients>
+    <allies>
+      <ally>none</ally>
+    </allies>
+    <ennemies>
+      <ennemy>none</ennemy>
+    </ennemies>
+    <notes>
+      <note>Environ 70 ans</note>
+      <note>Toujours accompagné par sa "création", une blouse blanche muette appelée Frank.</note>
+      <note>Ce sont les Jekyll et Hyde de l'hopital.</note>
+      <note>Il est irritable et irrespectueux envers les patients.</note>
+      <note>Fatigué et tout le temps semblant s'ennuyer.</note>
+      <note>Il se moque des patients et laisse Franck faire les prescriptions, souvent mauvaises.</note>
+      <note>"Vous avez, moi aussi j'étais un cancre dans ma jeunesse mais je me suis pris en main et voilà où j'en suis maintenant."</note>
+      <note>"Faites des efforts et vous aussi vous réussirez."</note>
+      <note>"Nous savons tous les deux que, au fond de vous, vous aimez bien cet environnement strict qui vous sécurise."</note>
+    </notes>
+  </npc>
+</p13npc>

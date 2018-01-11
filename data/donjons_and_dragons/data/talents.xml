@@ -1,0 +1,291 @@
+<talents>
+  
+  <!-- 
+  <talent id="">
+    <name></name>
+    <description></description>
+    <prerequisite></prerequisite>
+  </talent>    
+  -->
+  
+  <talent id="madd">
+    <name>Maniement des armes de druide</name>
+    <description>Bâton, cimeterre, dague, dard, épieu, fronde, gourdin, lance, serpe</description>
+  </talent>
+  <talent id="man">
+    <name>Maniement des armes naturelles</name>
+    <description>Griffe, morsure, ...</description>
+  </talent>
+  <talent id="mdag">
+    <name>Maniement des armes de guerre</name>
+  </talent>
+  <talent id="mdac">
+    <name>Maniement des armes de courantes</name>
+  </talent>
+  <talent id="mdb">
+    <name>Maniement du bouclier</name>
+  </talent>
+  <talent id="pdale">
+    <name>Port des armures legeres</name>
+  </talent>    
+  <talent id="pdai">
+    <name>Port des armures intermédiaire</name>
+  </talent>    
+  <talent id="pdalo">
+    <name>Port des armures lourdes</name>
+  </talent>    
+  <talent id="da">
+    <name>Déplacement accéleré</name>
+  </talent>    
+  <talent id="ill">
+    <name>Illétrisme</name>
+  </talent>    
+  <talent id="rage">
+    <name>Rage de Berseker</name>
+  </talent>
+  <talent id="rageGB">
+    <name>Rage de Grand Berseker</name>
+  </talent>
+  <talent id="rageMB">
+    <name>Rage de Maitre Berseker</name>
+  </talent>
+  <talent id="rageSF">
+    <name>Rage sans fatigue</name>
+  </talent>
+  <talent id="esqInst">
+    <name>Esquive instinctive</name>
+  </talent>
+  <talent id="esqInstSup">
+    <name>Esquive instinctive supérieure</name>
+  </talent>
+  <talent id="sdp">
+    <name>Sens des pièges</name>
+  </talent>
+  <talent id="rdd">
+    <name>Réduction des dégâts</name>
+  </talent>
+  <talent id="vi">
+    <name>Volonté indomptable</name>
+  </talent>
+  <talent id="cdb">
+    <name>Chant de barde</name>
+  </talent>
+  <talent id="iv">
+    <name>Inspiration vaillante</name>
+  </talent>
+  <talent id="sb">
+    <name>Savoir bardique</name>
+  </talent>
+  <talent id="it">
+    <name>Inspiration talentueuse</name>
+  </talent>
+  <talent id="ih">
+    <name>Inspiration héroïque</name>
+  </talent>
+  <talent id="ii">
+    <name>Inspiration intrépide</name>
+  </talent>
+  <talent id="compAn">
+    <name>Compagnon animal</name>
+    <description>Give an animal compagnon...</description>
+    <prerequisite>test</prerequisite>
+  </talent>
+  <talent id="empSau">
+    <name>Empathie sauvage</name>
+  </talent>
+  <talent id="instNat">
+    <name>Instinct naturel</name>
+  </talent>
+  <talent id="df">
+    <name>Déplacement facilité</name>
+  </talent>
+  <talent id="at">
+    <name>Absence de traces</name>
+  </talent>
+  <talent id="ran">
+    <name>Résistance à l'appel de la nature</name>
+  </talent>
+  <talent id="fan">
+    <name>Forme animale</name>
+  </talent>
+  <talent id="fanG">
+    <name>Forme animale taille G</name>
+  </talent>
+  <talent id="fanTP">
+    <name>Forme animale taille TP</name>
+  </talent>
+  <talent id="fanTG">
+    <name>Forme animale taille TG</name>
+  </talent>
+  <talent id="fel">
+    <name>Forme élémentaire</name>
+  </talent>
+  <talent id="felTG">
+    <name>Forme élémentaire taille TG</name>
+  </talent>
+  <talent id="immuVen">
+    <name>Immunité contre le venin</name>
+  </talent>
+  <talent id="milleV">
+    <name>Mille visages</name>
+  </talent>
+  <talent id="etJ">
+    <name>Eternelle jeunesse</name>
+  </talent>
+  <talent id="apf">
+    <name>Appel de familier</name>
+  </talent>
+  <talent id="donS">
+    <name>Don supplémentaire</name>
+  </talent>
+  <talent id="ecP">
+    <name>Ecriture de parchemin</name>
+  </talent>
+  <talent id="ecP">
+    <name>Maniement des armes du magicien</name>
+    <description>Arbalète, bâton, dague et gourdin.</description>
+  </talent>
+  <talent id="dam">
+    <name>Déplacement accéleré du moine</name>
+  </talent>
+  <talent id="camn">
+    <name>Combat à mains nues</name>
+  </talent>
+  <talent id="ddc">
+    <name>Déluge de coups</name>
+  </talent>
+  <talent id="esqTot">
+    <name>Esquive totale</name>
+  </talent>
+  <talent id="serenite">
+    <name>Sérénité</name>
+  </talent>
+  <talent id="fKi">
+    <name>Frappe Ki</name>
+  </talent>
+  <talent id="cr">
+    <name>Chute ralentie</name>
+  </talent>
+  <talent id="purePhy">
+    <name>Pureté physique</name>
+  </talent>
+  <talent id="plenPhy">
+    <name>Plénitude physique</name>
+  </talent>
+  <talent id="esqExt">
+    <name>Esquive extraordinaire</name>
+  </talent>
+  <talent id="corDia">
+    <name>Corps de diamant</name>
+  </talent>
+  <talent id="delSup">
+    <name>Déluge supérieur</name>
+  </talent>
+  <talent id="pChasse">
+    <name>Pas chassé</name>
+  </talent>
+  <talent id="ameDia">
+    <name>Ame de diamant</name>
+  </talent>
+  <talent id="pauVib">
+    <name>Paume vibratoire</name>
+  </talent>
+  <talent id="langues">
+    <name>Langues du soleil et de la lune</name>
+  </talent>
+  <talent id="desAme">
+    <name>Désertion de l'âme</name>
+  </talent>
+  <talent id="perfEtre">
+    <name>Perfection de l'être</name>
+  </talent>
+  <talent id="bCA">
+    <name>Bonus à la CA</name>
+  </talent>
+  <talent id="mdamo">
+    <name>Maniement des armes de moines</name>
+    <description>arbalète, bâton, dague, fronde, gourdin, hachette, javelot, kama, nunchaku, sai, shuriken, siangham</description>
+  </talent>
+  <talent id="auraBien">
+    <name>Aura du bien</name>
+  </talent>
+  <talent id="chMal">
+    <name>Châtiment du Mal</name>
+  </talent>
+  <talent id="detMal">
+    <name>Détection du mal</name>
+  </talent>
+  <talent id="gDiv">
+    <name>Grâce divine</name>
+  </talent>
+  <talent id="impMain">
+    <name>Imposition des mains</name>
+  </talent>
+  <talent id="auBra">
+    <name>Aura de bravoure</name>
+  </talent>
+  <talent id="sanDiv">
+    <name>Santé divine</name>
+  </talent>
+  <talent id="renMV">
+    <name>Renvoi des morts-vivants</name>
+  </talent>
+  <talent id="destPal">
+    <name>Destrier de paladin</name>
+  </talent>
+  <talent id="gueMal">
+    <name>Guérison des maladies</name>
+  </talent>
+  <talent id="dom">
+    <name>Domaine divin</name>
+  </talent>
+  <talent id="div">
+    <name>Divinité</name>
+ </talent>
+  <talent id="ennJur">
+    <name>Ennemi juré</name>
+  </talent>
+  <talent id="pist">
+    <name>Pistage</name>
+  </talent>
+  <talent id="pistAcc">
+    <name>Pistage accéléré</name>
+  </talent>
+  <talent id="styCom">
+    <name>Style de combat</name>
+  </talent>
+  <talent id="scStyCom">
+    <name>Science du style de combat</name>
+  </talent>
+  <talent id="meStyCom">
+    <name>Maitrise du style de combat</name>
+  </talent>
+  <talent id="endu">
+    <name>Style de combat</name>
+  </talent>
+  <talent id="depFac">
+    <name>Déplacement facilité</name>
+  </talent>
+  <talent id="camou">
+    <name>Camouflage</name>
+  </talent>
+  <talent id="discTot">
+    <name>Discrétion totale</name>
+  </talent>
+  <talent id="mdar">
+    <name>Maniement des armes de roublard</name>
+    <description>arbalète de poing, arc court, épée courte, matraque, rapière</description>
+  </talent>
+  <talent id="attSou">
+    <name>Attaque sournoise</name>
+  </talent>
+  <talent id="rdp">
+    <name>Recherche des pièges</name>
+  </talent>
+  <talent id="sendDP">
+    <name>Sens des pièges</name>
+  </talent>
+  <talent id="pouSpe">
+    <name>Pouvoir spécial</name>
+  </talent>
+</talents>

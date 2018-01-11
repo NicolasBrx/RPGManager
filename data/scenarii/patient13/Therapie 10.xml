@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <game>Patient 13</game>
+  <title>Therapie 10</title>
+  <abstract>Apres les sous-sols, il va maintenant falloir se rendre dans les étages superieurs pour rencontrer des fanromes et en apprendre plus sur le mange-main. Il va aussi falloir composer avec le nouveau directeur.</abstract>
+  <primeevents>
+    <event order="0" followup="1">L'un des patients est réveillé par des bruits de pas à dans la piece au dessus. Au plafond, une breche laisse voir un oeil rouge qui observe le patient, qui murmure "C'est 13". Le patient se réveille maintenant.</event>
+    <event order="1" followup="2">Cela indique bien entendu la salle C13, une chambre fermee a clef. Personne ne sait pourquoi la chambre est inutilisée, mais tous le monde est d'accord pour dire que si il y a une clé, elle est dans l'intendance. Effectivement, un trousseau de clé contenant la cle C13 s'y trouve. Sauf que c'est un antre a blouse blanche.</event>
+    <event order="2" followup="3">Une fois récupérée, les patients peuvent penetrer dans la piece qui n'a rien de particulier... a l'exception du plafond inexistant permettant de monter au troisieme etage.</event>
+    <event order="3" followup="4">Le troisieme etage est sombre et recouvert d'une epaisse couche de poussiere. Il faut se retenir de ne pas eternuer et ne pas faire trop de bruit pour eviter d'alerter les passants de l'étage inferieur. Cet étage est dévastés, des cloisons sont tombées, des amas de pierres et de bois sont partout.</event>
+    <event order="4" followup="5">Non loin de la salle C13 (au dessus en fait), de nombreuses bougies noires peuvent etre trouvees ainsi que quelques allumettes. Ces bougies sont en fait faites de cendres humaines.</event>
+    <event order="5" followup="6">Plusieurs fois, les patients pourront se sentir épiés. Ce ne sera qu'un patient prétendant être perdu. Il a vu des gens ici et il les cherche. Il a peut que les patients soient a la solde des blouse blanches. Il expliquera avoir cherché un moyen d es'échapper et il n'a jamais osé redescendre.</event>
+    <event order="6" followup="7">Les patients devraient finir par comprendre qu'il est mort de faim depuis longtemps et qu'il cherche ses compagnons morts.</event>
+    <event order="7">In fine, les patients pourront arrver devant une assemblée de morts qu'ils pourront voir grace aux bougies noires. Le patient perdu les remerciera de l'avoir aidé a retrouver sa nouvelle famille. Ils sont muets car morts depuis trop longtemps mais le chef de la communauté a les yeux rouges. Il les remercie d'un signe de tête et leur donne une vieil carte, un plan de l'hopital et son enceinte. Une croix marque un endroit dans la cour.</event>
+  </primeevents>
+  <secondevents>
+    <event order="0">Les patients pourraient voir une autre piece par un trou dans le sol... ca pourrait les intriguer ou les remettre sur une voie perdue.</event>
+  </secondevents>
+  <randomevents>
+    <event>Le nouveau directeur arrive : un nain aux yeux totalement noirs et arborant toujours le meme costume sombre. Il se fait appelé Directeur et est toujours acompagné d'un androgyne grand, filiforme et aux levres pourpres se faisant appelé Secretaire.</event>
+    <event>Le nouveau directeur est pire que le premier et sa premiere action sera de faire enfermer tout ceux présents lors de la mort de son predecesseur.</event>
+  </randomevents>
+  <results>
+    <success>Des infos... et la suite.</success>
+    <failure>Ben ca va etre dur de continuer...</failure>
+  </results>
+</scenario>

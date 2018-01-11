@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <game>Patient 13</game>
+  <title>Therapie 9</title>
+  <abstract>Des recherches sur Morgue, le patient mythique, son identité... et mort du directeur.</abstract>
+  <primeevents>
+    <event order="0" followup="1">De la bave s'échappe d'un scarabee a detritus qui ne parvient pas a digerer le sac en plastique coincé dans sa gueule. A l'interieur, une main droite, momifiee et recouvertes d'inscriptions occultes.</event>
+    <event order="1" followup="2">Des recherches montrent que c'est une "main de gloire", la main d'un homme mort d'une mort violente permettant d'ouvrir des portes autrement verrouillees.</event>
+    <event order="2" followup="3">Plusieurs symboles, dont celui de l'hopital, recouvre la peau et indiquent qu'une seule et unique porte est reliee a la main. Il faut donc la trouver. Dans le livre indiquant tout ca, une note dans la marge, à l'envers : "J'ai laisse la seconde dans ma piece."</event>
+    <event order="3" followup="4">Le directeur est sur le pied de guerre. Apres l'agression de Butcher et le suicide d'Alice, il a resserré la vis. Il organise donc une fouille, change les patients de chambre et encourage les supérieurs a plus de severite.</event>
+    <event order="4" followup="5">La piece ou se trouve la seconde est la salle qui porte le nom de l'auteur, Morgue. Sous une des dalle, les patients pourront trouver la seconde main utilisee par Morgue pour masquer l'ouverture de sa chambre ainsi qu'un pendentif animal.</event>
+    <event order="5" followup="6">Cette seconde main peut être allumée a la maniere d'une bougie, revelant ainsi l'entree de la chambre de Morgue en decouvrant des symboles vus sur la premiere main sur un mur du second etage. La premiere main permet ensuite de passer a travers le mur.</event>
+    <event order="6" followup="7">De l'autre côté, c'est le silence absolu, plusieurs centimetres de poussiere une odeur de pourriture intense. Au sol, de nombreux feuillets blancs sont dispersés. Il s'y trouve aussi des traces de sang brunies, sur le lit egalement.</event>
+    <event order="7" followup="8">Sur le mur, un trompe l'oeil des plus realiste represente un miroir de la chambre ainsi que l'autoportrait de son occupant... qui se révele etre le directeur en personne.</event>
+    <event order="8">Lorsque les patients ressortent, un grand brouhaha sort de l'infirmerie : le directeur vient d'etre assassiné par le Mange-Main devant une demi-douzaine de patients et une blouse blanche, tous sous le choc !</event>
+  </primeevents>
+  <secondevents>
+    <event order="0" />
+  </secondevents>
+  <randomevents>
+    <event>La rumeur veut que le directeur cherche en fait des informations sur Morgue, persuadé qu'il n'a pas quitté l'hopital.</event>
+    <event>Les patients peuvent croiser un autre patient, intrigué et apeuré. Il a vu le directeur jeter quelque chose dans la poubelle.</event>
+  </randomevents>
+  <results>
+    <success>Suite...</success>
+    <failure>Suite avec beaucoup moins d'informations...</failure>
+  </results>
+</scenario>

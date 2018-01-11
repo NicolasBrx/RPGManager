@@ -1,0 +1,153 @@
+<races>
+  <race name="Demi-elfe">
+    <modificators>
+    </modificators>
+    <size>M</size>
+    <advantages>
+      <advantage>immuSommeil</advantage>
+      <advantage>deuxEnchant</advantage>
+      <advantage>vn</advantage>
+      <advantage>unDFPA</advantage>
+      <advantage>deuxDR</advantage>
+      <advantage>se</advantage>
+    </advantages>
+    <languages>
+      <language>commune</language>
+      <language>elfe</language>
+    </languages>
+    <preferredClass>none</preferredClass>
+  </race>
+  
+  <race name="Demi-orc">
+    <modificators>
+      <strength>2</strength>
+      <intelligence>-2</intelligence>
+      <charisma>-2</charisma>
+    </modificators>
+    <size>M</size>
+    <advantages>
+      <advantage>vn</advantage>
+      <advantage>so</advantage>
+    </advantages>
+    <languages>
+      <language>commune</language>
+      <language>orc</language>
+    </languages>
+    <preferredClass>Barbare</preferredClass>
+  </race>
+  
+  <race name="Elfe">
+    <modificators>
+      <dexterity>2</dexterity>
+      <constitution>-2</constitution>
+    </modificators>
+    <size>M</size>
+    <advantages>
+      <advantage>immuSommeil</advantage>
+      <advantage>deuxEnchant</advantage>
+      <advantage>vn</advantage>
+      <advantage>deuxDFPA</advantage>
+      <advantage>eFA</advantage>
+    </advantages>
+    <talents>
+      <talent>mdag</talent>
+    </talents>
+    <languages>
+      <language>commune</language>
+      <language>elfe</language>
+    </languages>
+    <preferredClass>Magicien</preferredClass>
+  </race>
+  
+  <race name="Gnome">
+    <modificators>
+      <strength>-2</strength>
+      <constitution>2</constitution>
+    </modificators>
+    <size>P</size>
+    <advantages>
+      <advantage>pTaille</advantage>
+      <advantage>vn</advantage>
+      <advantage>afMPG</advantage>
+      <advantage>deuxIllu</advantage>
+      <advantage>unDDIllu</advantage>
+      <advantage>unKG</advantage>
+      <advantage>pEsqu</advantage>
+      <advantage>quatrePA</advantage>
+      <advantage>deuxAlch</advantage>
+    </advantages>
+    <magical_powers>
+      <power use="1/j">gca</power>
+      <power use="1/j" >gld</power>
+      <power use="1/j" >gp</power>
+      <power use="1/j" ></power>
+    </magical_powers>
+    <languages>
+      <language>commune</language>
+      <language>gnome</language>
+    </languages>
+    <preferredClass>Barde</preferredClass>
+  </race>
+  
+   <race name="Halfelin">
+    <modificators>
+      <strength>-2</strength>
+      <dexterity>2</dexterity>
+    </modificators>
+    <size>P</size>
+    <advantages>
+      <advantage>pTaille</advantage>
+      <advantage>deuxDSES</advantage>
+      <advantage>unSaves</advantage>
+      <advantage>deuxTerr</advantage>
+      <advantage>unJetF</advantage>
+      <advantage>deuxPA</advantage>
+    </advantages>
+    <languages>
+      <language>commune</language>
+      <language>halfelin</language>
+    </languages>
+    <preferredClass>Roublard</preferredClass>
+  </race>
+  
+  <race name="Humain">
+    <modificators>
+    </modificators>
+    <size>M</size>
+    <advantages>
+      <advantage>humDon</advantage>
+      <advantage>humComp</advantage>
+    </advantages>
+    <languages>
+      <language>commune</language>
+    </languages>
+    <preferredClass>none</preferredClass>
+  </race>
+  
+  <race name="Nain">
+    <modificators>
+      <constitution>2</constitution>
+      <charisma>-2</charisma>
+    </modificators>
+    <size>M</size>
+    <advantages>
+      <advantage>dwWeig</advantage>
+      <advantage>vn</advantage>
+      <advantage>CP</advantage>
+      <advantage>afHGN</advantage>
+      <advantage>quatreRenv</advantage>
+      <advantage>deuxPois</advantage>
+      <advantage>deuxSpell</advantage>
+      <advantage>unOG</advantage>
+      <advantage>pEsqu</advantage>
+      <advantage>dwEst</advantage>
+      <advantage>dwArt</advantage>
+    </advantages>
+    <languages>
+      <language>commune</language>
+      <language>naine</language>
+    </languages>
+    <preferredClass>Guerrier</preferredClass>
+  </race>
+  
+</races>

@@ -1,0 +1,30 @@
+<powers>
+  
+  <!-- 
+  <power id="">
+    <name></name>
+    <description></description>
+    <prerequisite id=""></prerequisite>
+  </power>    
+  -->
+  
+  <power id="gca">
+    <name>Communication animale</name>
+    <description></description>
+  </power>
+  <power id="gld">
+    <name>Lumières dansantes</name>
+    <description></description>
+    <prerequisite id="cha">10</prerequisite>
+  </power>
+  <power id="gp">
+    <name>Prestidigitation</name>
+    <description></description>
+    <prerequisite id="cha">10</prerequisite>
+  </power>
+  <power id="gsi">
+    <name>Son imaginaire</name>
+    <description></description>
+    <prerequisite id="cha">10</prerequisite>
+  </power>
+</powers>

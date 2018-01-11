@@ -1,0 +1,143 @@
+<advantages>
+  
+  <!-- 
+  <advantage id="">
+    <name></name>
+    <description></description>
+    <prerequisite></prerequisite>
+  </advantage>    
+  -->
+  
+  <advantage id="immuSommeil">
+    <name>Immunité au sommeil</name>
+    <description>Immunité contre les sorts et les effets magique de sommeil.</description>
+  </advantage>    
+  <advantage id="deuxEnchant">
+    <name>+2 contre l'école d'enchantement</name>
+    <description></description>
+  </advantage>    
+  <advantage id="vn">
+    <name>Vision nocturne</name>
+    <description></description>
+  </advantage>
+  <advantage id="unDFPA">
+    <name>+1 à la fouille, la détection et la perception auditive</name>
+    <description></description>
+  </advantage>   
+  <advantage id="deuxDR">
+    <name>+2 à la diplomatie et au renseignement</name>
+    <description></description>
+  </advantage>
+  <advantage id="se">
+    <name>Sang elfique</name>
+    <description></description>
+  </advantage>
+  <advantage id="so">
+    <name>Sang orc</name>
+    <description></description>
+  </advantage>
+  <advantage id="efa">
+    <name>Fouille automatique</name>
+    <description>Jet de fouille automatique à proximité d'un passage secret ou d'une porte dissimulée.</description>
+  </advantage>
+  <advantage id="pTaille">
+    <name>+1 à la CA, +1 attaque, +4 discrétion</name>
+    <description>Limitation d'utilisation : armes de petites tailles.</description>
+  </advantage>
+  <advantage id="afMPG">
+    <name>Arme familière : marteau-piolet gnome</name>
+    <description>Limitation d'utilisation : armes de petites tailles.</description>
+  </advantage>
+  <advantage id="deuxIllu">
+    <name>+2 contre les illusions</name>
+    <description></description>
+  </advantage>
+  <advantage id="unDDIllu">
+    <name>+1 au DD contre les illusions</name>
+    <description></description>
+  </advantage>
+  <advantage id="unKG">
+    <name>+1 jet d'attaque contre les kobolds et les gobelinoïdes</name>
+    <description></description>
+  </advantage>
+  <advantage id="pEsqu">
+    <name>+4 à l'esquive contre les géants</name>
+    <description></description>
+  </advantage>
+  <advantage id="quatrePA">
+    <name>+4 à la perception auditive</name>
+    <description></description>
+  </advantage>
+  <advantage id="deuxAlch">
+    <name>+2 artisanat (alchimie)</name>
+    <description></description>
+  </advantage>
+  <advantage id="deuxDSES">
+    <name>+2 au déplacement silencieux, escalade et saut</name>
+    <description></description>
+  </advantage>
+  <advantage id="unSaves">
+    <name>+1 à tous les jets de sauvegarde</name>
+    <description></description>
+  </advantage>
+  <advantage id="deuxTerr">
+    <name>+2 contre la terreur</name>
+    <description></description>
+  </advantage>
+  <advantage id="unJetF">
+    <name>+1 au jet d'attaque avec une arme de jet ou un fronde</name>
+    <description></description>
+  </advantage>
+  <advantage id="deuxPA">
+    <name>+2 à la perception auditive</name>
+    <description></description>
+  </advantage>
+  <advantage id="humDon">
+    <name>+1 don au niveau 1</name>
+    <description></description>
+  </advantage>
+  <advantage id="humComp">
+    <name>+4 points de compétence au niveau 1, +1 point à chaque niveau</name>
+    <description></description>
+  </advantage>
+  <advantage id="deuxIllu">
+    <name>+2 contre les illusions</name>
+    <description></description>
+  </advantage>
+  <advantage id="dwWeig">
+    <name>Pas de pénalité de poids sur la vitesse</name>
+    <description></description>
+  </advantage>
+  <advantage id="CP">
+    <name>Connaissance de la pierre</name>
+    <description></description>
+  </advantage>
+  <advantage id="afHGN">
+    <name>Arme familière : hache de guerre naine, urgrosh</name>
+    <description></description>
+  </advantage>
+  <advantage id="quatreRenv">
+    <name>+4 contre bousculade et croc-en-jambe</name>
+    <description></description>
+  </advantage>
+  <advantage id="deuxPois">
+    <name>+2 contre le poison</name>
+    <description></description>
+  </advantage>
+  <advantage id="deuxSpell">
+    <name>+2 contre les sorts</name>
+    <description></description>
+  </advantage>
+  <advantage id="unOG">
+    <name>+1 au jet d'attaque contre les orcs et les gobelinoïdes</name>
+    <description></description>
+  </advantage>
+  <advantage id="dwEst">
+    <name>+2 à l'estimation sur le métal et la pierre</name>
+    <description></description>
+  </advantage>
+  <advantage id="dwArt">
+    <name>+2 à l'artisanat sur le métal et la pierre</name>
+    <description></description>
+  </advantage>
+</advantages

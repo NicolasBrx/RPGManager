@@ -1,0 +1,121 @@
+<add>
+  <player name="Nicolas">
+    <character firstname="Nalin" familyname="Elfleg" >
+      <age>33</age>
+      <weight>95</weight>
+      <size>1.76</size>
+      <gender>homme</gender>
+      <currentlife>7</currentlife>
+      <strength>10</strength>
+      <dexterity>10</dexterity>
+      <constitution>10</constitution>
+      <intelligence>10</intelligence>
+      <wisdom>10</wisdom>
+      <charisma>10</charisma>
+      <xp>20000</xp>
+      <race>Nain</race>
+      <alignments>
+        <loyalty>chaotique</loyalty>
+        <goodness>neutre</goodness>
+      </alignments>
+      <deity>Ogel</deity>
+      <classes>
+        <class level="10">Barbare</class>
+        <class level="1">Magicien</class>
+      </classes>
+      <skills>
+        <skill level="15">artisanat</skill>
+        <skill level="8">déplacement silencieux</skill>
+        <skill level="60">concentration</skill>
+      </skills>
+      <talents>
+        <talent>sdp</talent>
+        <talent>rdd</talent>
+        <talent>ameDia</talent>
+        <talent>pauVib</talent>
+      </talents>
+      <spells>
+        <spell>InvMons1</spell>
+        <spell>Priere</spell>
+        <spell>Benediction</spell>
+      </spells>
+    </character>
+    <equipement>Test</equipement>
+  </player>
+  <player name="Roger">
+    <character firstname="Nalin" familyname="Elfleg" >
+      <age>33</age>
+      <weight>75</weight>
+      <size>1.55</size>
+      <gender>homme</gender>
+      <currentlife>15</currentlife>
+      <strength>15</strength>
+      <dexterity>7</dexterity>
+      <constitution>16</constitution>
+      <intelligence>10</intelligence>
+      <wisdom>6</wisdom>
+      <charisma>3</charisma>
+      <xp>20000</xp>
+      <race>Demi-orc</race>
+      <alignments>
+        <loyalty>neutre</loyalty>
+        <goodness>mauvais</goodness>
+      </alignments>
+      <deity>Crom</deity>
+      <classes>
+        <class level="4">Barbare</class>
+        <class level="1">Guerrier</class>
+      </classes>
+      <skills>
+        <skill level="15">artisanat</skill>
+        <skill level="8">déplacement silencieux</skill>
+        <skill level="60">concentration</skill>
+      </skills>
+      <talents>
+        <talent>mdag</talent>
+        <talent>pdai</talent>
+        <talent>compAn</talent>
+      </talents>
+      <spells></spells>
+    </character>
+    <equipement>Test</equipement>
+  </player>
+  <player name="Rabbit">
+    <character firstname="Nalin" familyname="Elfleg" >
+      <age>25</age>
+      <weight>48</weight>
+      <size>1.76</size>
+      <gender>femme</gender>
+      <currentlife>9</currentlife>
+      <strength>10</strength>
+      <dexterity>17</dexterity>
+      <constitution>14</constitution>
+      <intelligence>12</intelligence>
+      <wisdom>10</wisdom>
+      <charisma>10</charisma>
+      <xp>20000</xp>
+      <race>Elfe</race>
+      <alignments>
+        <loyalty>chaotique</loyalty>
+        <goodness>bon</goodness>
+      </alignments>
+      <deity>Elle</deity>
+      <classes>
+        <class level="1">Magicien</class>
+        <class level="1">Barbare</class>
+      </classes>
+      <skills>
+        <skill level="15">artisanat</skill>
+        <skill level="8">déplacement silencieux</skill>
+        <skill level="60">concentration</skill>
+      </skills>
+      <talents>
+        <talent>empSau</talent>
+        <talent>at</talent>
+        <talent>fan</talent>
+      </talents>
+      <spells></spells>
+    </character>
+    <equipement>Test</equipement>
+  </player>
+</add>

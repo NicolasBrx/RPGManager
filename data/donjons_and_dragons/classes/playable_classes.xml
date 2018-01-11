@@ -1,0 +1,1652 @@
+<classes>
+  <!-- template for a class
+  <class name="" epic="">
+    <prerequisites></prerequisites>
+    <life_point_dice></life_point_dice>
+    <attack_base_bonus></attack_base_bonus>       // high, mean, weak 
+    <reflex_base_bonus></reflex_base_bonus>       // high, mean, weak 
+    <fortitude_base_bonus></fortitude_base_bonus> // high, mean, weak 
+    <will_base_bonus></will_base_bonus>           // high, mean, weak 
+    <alignment type=""></alignment>               // forbid,obligation
+    <class_advantages>
+      <advantage level=""></advantage>
+    </class_advantages>
+    <skill_points></skill_points>
+    <class_skills>
+      <skill></skill>
+    </class_skills>
+    <spells allowed="">          // yes, no
+      <player level="">          // according to player level => *20 max
+        <spell level=""></spell> // number by spell level     => *9 max
+      </player>
+    </spells>
+  </class>
+  
+  BBA : barbare, guerrier, paladin, rodeur : high
+        bardes, druides, moins, pretres, roublards : mean
+        sorc, magicien : weak
+  -->
+  
+  <class name="Barbare" epic="no">
+    <prerequisites></prerequisites>
+    <life_point_dice>12</life_point_dice>
+    <attack_base_bonus>high</attack_base_bonus>
+    <reflex_base_bonus>weak</reflex_base_bonus> 
+    <fortitude_base_bonus>high</fortitude_base_bonus>
+    <will_base_bonus>weak</will_base_bonus>        
+    <alignment type="forbid">loyal</alignment>
+    <class_advantages>
+      <advantage level="0">mdag</advantage>
+      <advantage level="0">mdac</advantage>
+      <advantage level="0">mdb</advantage>
+      <advantage level="0">pdale</advantage>
+      <advantage level="0">pdalo</advantage>
+      <advantage level="0">da</advantage>
+      <advantage level="0">ill</advantage>
+      <advantage level="1">rage</advantage>
+      <advantage level="2">esqInst</advantage>
+      <advantage level="3">sdp</advantage>
+      <advantage level="4">rage</advantage>
+      <advantage level="5">esqInstSup</advantage>
+      <advantage level="6">sdp</advantage>
+      <advantage level="7">rdd</advantage>
+      <advantage level="8">rage</advantage>
+      <advantage level="9">sdp</advantage>
+      <advantage level="10">rdd</advantage>
+      <advantage level="11">rageGB</advantage>
+      <advantage level="12">rage</advantage>
+      <advantage level="12">sdp</advantage>
+      <advantage level="13">rdd</advantage>
+      <advantage level="14">vi</advantage>
+      <advantage level="15">sdp</advantage>
+      <advantage level="16">rage</advantage>
+      <advantage level="16">rdd</advantage>
+      <advantage level="17">rageSF</advantage>
+      <advantage level="18">sdp</advantage>
+      <advantage level="19">rdd</advantage>
+      <advantage level="20">rage</advantage>
+      <advantage level="20">rageMB</advantage>
+    </class_advantages>
+    <skill_points>
+      <starting_multiplier>4</starting_multiplier>
+      <level_increase>4</level_increase>
+    </skill_points>
+    <class_skills>
+      <skill>artisanat</skill>
+      <skill>dressage</skill>
+      <skill>équitation</skill>
+      <skill>escalade</skill>
+      <skill>intimidation</skill>
+      <skill>natation</skill>
+      <skill>perception auditive</skill>
+      <skill>saut</skill>
+      <skill>survie</skill>
+    </class_skills>
+    <spells allowed="no"></spells>
+  </class>
+  
+  <class name="Barde" epic="no">
+    <prerequisites></prerequisites>
+    <life_point_dice>6</life_point_dice>
+    <attack_base_bonus>mean</attack_base_bonus>
+    <reflex_base_bonus>high</reflex_base_bonus> 
+    <fortitude_base_bonus>weak</fortitude_base_bonus>
+    <will_base_bonus>high</will_base_bonus>        
+    <alignment type="forbid">loyal</alignment>
+    <class_advantages>
+      <advantage level="0">mdac</advantage>
+      <advantage level="0">mdb</advantage>
+      <advantage level="0">pdale</advantage>
+      <advantage level="1">cdb</advantage>
+      <advantage level="0">sb</advantage>
+      <advantage level="1">iv</advantage>
+      <advantage level="3">it</advantage>
+      <advantage level="6">cdb</advantage>
+      <advantage level="8">iv</advantage>
+      <advantage level="9">ih</advantage>
+      <advantage level="12">cdb</advantage>
+      <advantage level="14">iv</advantage>
+      <advantage level="15">ii</advantage>
+      <advantage level="18">cdb</advantage>
+      <advantage level="20">iv</advantage>
+    </class_advantages>
+    <skill_points>
+      <starting_multiplier>4</starting_multiplier>
+      <level_increase>6</level_increase>
+    </skill_points>
+    <class_skills>
+      <skill>acrobatie</skill>
+      <skill>art de la magie</skill>
+      <skill>artisanat</skill>
+      <skill>bluff</skill>
+      <skill>concentration</skill>
+      <skill>connaissances</skill>
+      <skill>décryptage</skill>
+      <skill>déguisement</skill>
+      <skill>déplacement silencieux</skill>
+      <skill>diplomatie</skill>
+      <skill>discrétion</skill>
+      <skill>équilibre</skill>
+      <skill>escalade</skill>
+      <skill>escamotage</skill>
+      <skill>estimation</skill>
+      <skill>évasion</skill>
+      <skill>langue</skill>
+      <skill>natation</skill>
+      <skill>perception auditive</skill>
+      <skill>profession</skill>
+      <skill>psychologie</skill>
+      <skill>renseignements</skill>
+      <skill>représentation</skill>
+      <skill>saut</skill>
+      <skill>utilisation d'objets magiques</skill>
+    </class_skills>
+    <spells allowed="yes" attribute="cha">
+      <player level="1">
+        <spell level="0">2</spell>
+      </player>
+      <player level="2">
+        <spell level="0">3</spell>
+      </player>
+      <player level="3">
+        <spell level="0">3</spell>
+        <spell level="1">1</spell>
+      </player>
+      <player level="4">
+        <spell level="0">3</spell>
+        <spell level="1">2</spell>
+      </player>
+      <player level="5">
+        <spell level="0">3</spell>
+        <spell level="1">3</spell>
+        <spell level="2">1</spell>
+      </player>
+      <player level="6">
+        <spell level="0">3</spell>
+        <spell level="1">3</spell>
+        <spell level="2">2</spell>
+      </player>
+      <player level="7">
+        <spell level="0">3</spell>
+        <spell level="1">3</spell>
+        <spell level="2">2</spell>
+      </player>
+      <player level="8">
+        <spell level="0">3</spell>
+        <spell level="1">3</spell>
+        <spell level="2">3</spell>
+        <spell level="3">1</spell>
+      </player>
+      <player level="9">
+        <spell level="0">3</spell>
+        <spell level="1">3</spell>
+        <spell level="2">3</spell>
+        <spell level="3">2</spell>
+      </player>
+      <player level="10">
+        <spell level="0">3</spell>
+        <spell level="1">3</spell>
+        <spell level="2">3</spell>
+        <spell level="3">2</spell>
+      </player>
+      <player level="11">
+        <spell level="0">3</spell>
+        <spell level="1">3</spell>
+        <spell level="2">3</spell>
+        <spell level="3">3</spell>
+        <spell level="4">1</spell>
+      </player>
+      <player level="12">
+        <spell level="0">3</spell>
+        <spell level="1">3</spell>
+        <spell level="2">3</spell>
+        <spell level="3">3</spell>
+        <spell level="4">2</spell>
+      </player>
+      <player level="13">
+        <spell level="0">3</spell>
+        <spell level="1">3</spell>
+        <spell level="2">3</spell>
+        <spell level="3">3</spell>
+        <spell level="4">2</spell>
+      </player>
+      <player level="14">
+        <spell level="0">3</spell>
+        <spell level="1">3</spell>
+        <spell level="2">3</spell>
+        <spell level="3">3</spell>
+        <spell level="4">3</spell>
+        <spell level="5">1</spell>
+      </player>
+      <player level="15">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">3</spell>
+        <spell level="3">3</spell>
+        <spell level="4">3</spell>
+        <spell level="5">2</spell>
+      </player>
+      <player level="16">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">3</spell>
+        <spell level="4">3</spell>
+        <spell level="5">2</spell>
+      </player>
+      <player level="17">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">3</spell>
+        <spell level="5">3</spell>
+        <spell level="6">1</spell>
+      </player>
+      <player level="18">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">3</spell>
+        <spell level="6">2</spell>
+      </player>
+      <player level="19">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">3</spell>
+      </player>
+      <player level="20">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">4</spell>
+      </player>
+    </spells>
+  </class>
+  
+  <class name="Druide" epic="no">
+    <prerequisites></prerequisites>
+    <life_point_dice>8</life_point_dice>
+    <attack_base_bonus>mean</attack_base_bonus>
+    <reflex_base_bonus>weak</reflex_base_bonus> 
+    <fortitude_base_bonus>high</fortitude_base_bonus>
+    <will_base_bonus>high</will_base_bonus>        
+    <alignment type="obligation">neutre</alignment>
+    <class_advantages>
+      <advantage level="0">madd</advantage>
+      <advantage level="0">man</advantage>
+      <advantage level="0">pdale</advantage>
+      <advantage level="0">pdai</advantage>
+      <advantage level="0">mdb</advantage>
+      <advantage level="0">compAn</advantage>
+      <advantage level="0">empSau</advantage>
+      <advantage level="0">instNat</advantage>
+      <advantage level="2">df</advantage>
+      <advantage level="3">at</advantage>
+      <advantage level="4">ran</advantage>
+      <advantage level="5">fan</advantage>
+      <advantage level="6">fan</advantage>
+      <advantage level="7">fan</advantage>
+      <advantage level="8">fanG</advantage>
+      <advantage level="9">immuVen</advantage>
+      <advantage level="10">fan</advantage>
+      <advantage level="11">fanTP</advantage>
+      <advantage level="12">fan</advantage>
+      <advantage level="13">milleV</advantage>
+      <advantage level="14">fan</advantage>
+      <advantage level="15">etJ</advantage>
+      <advantage level="15">fanTG</advantage>
+      <advantage level="16">fel</advantage>
+      <advantage level="18">fel</advantage>
+      <advantage level="20">fel</advantage>
+      <advantage level="20">felTG</advantage>
+    </class_advantages>
+    <skill_points>
+      <starting_multiplier>4</starting_multiplier>
+      <level_increase>4</level_increase>
+    </skill_points>
+    <class_skills>
+      <skill>art de la magie</skill>
+      <skill>artisanat</skill>
+      <skill>concentration</skill>
+      <skill>connaissances</skill>
+      <skill>détection</skill>
+      <skill>diplomatie</skill>
+      <skill>dressage</skill>
+      <skill>natation</skill>
+      <skill>perception auditive</skill>
+      <skill>premiers secours</skill>
+      <skill>profession</skill>
+      <skill>survie</skill>
+    </class_skills>
+    <spells allowed="yes" attribute="wis">
+      <player level="1">
+        <spell level="0">3</spell>
+        <spell level="1">1</spell>
+      </player>
+      <player level="2">
+        <spell level="0">4</spell>
+        <spell level="1">2</spell>
+      </player>
+      <player level="3">
+        <spell level="0">4</spell>
+        <spell level="1">2</spell>
+        <spell level="2">1</spell>
+      </player>
+      <player level="4">
+        <spell level="0">5</spell>
+        <spell level="1">3</spell>
+        <spell level="2">2</spell>
+      </player>
+      <player level="5">
+        <spell level="0">5</spell>
+        <spell level="1">3</spell>
+        <spell level="2">2</spell>
+        <spell level="3">1</spell>
+      </player>
+      <player level="6">
+        <spell level="0">5</spell>
+        <spell level="1">3</spell>
+        <spell level="2">3</spell>
+        <spell level="3">2</spell>
+      </player>
+      <player level="7">
+        <spell level="0">6</spell>
+        <spell level="1">4</spell>
+        <spell level="2">3</spell>
+        <spell level="3">2</spell>
+        <spell level="4">1</spell>
+      </player>
+      <player level="8">
+        <spell level="0">6</spell>
+        <spell level="1">4</spell>
+        <spell level="2">3</spell>
+        <spell level="3">3</spell>
+        <spell level="4">2</spell>
+      </player>
+      <player level="9">
+        <spell level="0">6</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">3</spell>
+        <spell level="4">2</spell>
+        <spell level="5">1</spell>
+      </player>
+      <player level="10">
+        <spell level="0">6</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">3</spell>
+        <spell level="4">3</spell>
+        <spell level="5">2</spell>
+      </player>
+      <player level="11">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">3</spell>
+        <spell level="5">2</spell>
+        <spell level="6">1</spell>
+      </player>
+      <player level="12">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">3</spell>
+        <spell level="5">3</spell>
+        <spell level="6">2</spell>
+      </player>
+      <player level="13">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">3</spell>
+        <spell level="6">2</spell>
+        <spell level="7">1</spell>
+      </player>
+      <player level="14">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">3</spell>
+        <spell level="6">3</spell>
+        <spell level="7">2</spell>
+      </player>
+      <player level="15">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">5</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">3</spell>
+        <spell level="7">2</spell>
+        <spell level="8">1</spell>
+      </player>
+      <player level="16">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">5</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">3</spell>
+        <spell level="7">3</spell>
+        <spell level="8">2</spell>
+      </player>
+      <player level="17">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">5</spell>
+        <spell level="4">5</spell>
+        <spell level="5">4</spell>
+        <spell level="6">4</spell>
+        <spell level="7">3</spell>
+        <spell level="8">2</spell>
+        <spell level="9">1</spell>
+      </player>
+      <player level="18">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">5</spell>
+        <spell level="4">5</spell>
+        <spell level="5">4</spell>
+        <spell level="6">4</spell>
+        <spell level="7">3</spell>
+        <spell level="8">3</spell>
+        <spell level="9">2</spell>
+      </player>
+      <player level="19">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">5</spell>
+        <spell level="4">5</spell>
+        <spell level="5">5</spell>
+        <spell level="6">4</spell>
+        <spell level="7">4</spell>
+        <spell level="8">3</spell>
+        <spell level="9">3</spell>
+      </player>
+      <player level="20">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">5</spell>
+        <spell level="4">5</spell>
+        <spell level="5">5</spell>
+        <spell level="6">4</spell>
+        <spell level="7">4</spell>
+        <spell level="8">4</spell>
+        <spell level="9">4</spell>
+      </player>
+    </spells>
+  </class>
+  
+  <class name="Ensorceleur" epic="no">
+    <prerequisites></prerequisites>
+    <life_point_dice>4</life_point_dice>
+    <attack_base_bonus>weak</attack_base_bonus>
+    <reflex_base_bonus>weak</reflex_base_bonus> 
+    <fortitude_base_bonus>weak</fortitude_base_bonus>
+    <will_base_bonus>high</will_base_bonus>        
+    <alignment type="obligation">none</alignment>
+    <class_advantages>
+      <advantage level="0">apf</advantage>
+      <advantage level="0">mdac</advantage>
+    </class_advantages>
+    <skill_points>
+      <starting_multiplier>4</starting_multiplier>
+      <level_increase>2</level_increase>
+    </skill_points>
+    <class_skills>
+      <skill>art de la magie</skill>
+      <skill>artisanat</skill>
+      <skill>bluff</skill>
+      <skill>concentration</skill>
+      <skill>connaissances (mystères)</skill>
+      <skill>profession</skill>
+    </class_skills>
+    <spells allowed="yes" attribute="cha">
+      <player level="1">
+        <spell level="0">4</spell>
+        <spell level="1">2</spell>
+      </player>
+      <player level="2">
+        <spell level="0">5</spell>
+        <spell level="1">2</spell>
+      </player>
+      <player level="3">
+        <spell level="0">5</spell>
+        <spell level="1">3</spell>
+      </player>
+      <player level="4">
+        <spell level="0">6</spell>
+        <spell level="1">3</spell>
+        <spell level="2">1</spell>
+      </player>
+      <player level="5">
+        <spell level="0">6</spell>
+        <spell level="1">4</spell>
+        <spell level="2">2</spell>
+      </player>
+      <player level="6">
+        <spell level="0">7</spell>
+        <spell level="1">4</spell>
+        <spell level="2">2</spell>
+        <spell level="3">1</spell>
+      </player>
+      <player level="7">
+        <spell level="0">7</spell>
+        <spell level="1">5</spell>
+        <spell level="2">3</spell>
+        <spell level="3">2</spell>
+      </player>
+      <player level="8">
+        <spell level="0">8</spell>
+        <spell level="1">5</spell>
+        <spell level="2">3</spell>
+        <spell level="3">2</spell>
+        <spell level="4">1</spell>
+      </player>
+      <player level="9">
+        <spell level="0">8</spell>
+        <spell level="1">5</spell>
+        <spell level="2">4</spell>
+        <spell level="3">3</spell>
+        <spell level="4">2</spell>
+      </player>
+      <player level="10">
+        <spell level="0">9</spell>
+        <spell level="1">5</spell>
+        <spell level="2">4</spell>
+        <spell level="3">3</spell>
+        <spell level="4">2</spell>
+        <spell level="5">1</spell>
+      </player>
+      <player level="11">
+        <spell level="0">9</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">4</spell>
+        <spell level="4">3</spell>
+        <spell level="5">2</spell>
+      </player>
+      <player level="12">
+        <spell level="0">9</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">4</spell>
+        <spell level="4">3</spell>
+        <spell level="5">2</spell>
+        <spell level="6">1</spell>
+      </player>
+      <player level="13">
+        <spell level="0">9</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">3</spell>
+        <spell level="6">2</spell>
+      </player>
+      <player level="14">
+        <spell level="0">9</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">3</spell>
+        <spell level="6">2</spell>
+        <spell level="7">1</spell>
+      </player>
+      <player level="15">
+        <spell level="0">9</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">3</spell>
+        <spell level="7">2</spell>
+      </player>
+      <player level="16">
+        <spell level="0">9</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">3</spell>
+        <spell level="7">2</spell>
+        <spell level="8">1</spell>
+      </player>
+      <player level="17">
+        <spell level="0">9</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">3</spell>
+        <spell level="7">3</spell>
+        <spell level="8">2</spell>
+      </player>
+      <player level="18">
+        <spell level="0">9</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">3</spell>
+        <spell level="7">3</spell>
+        <spell level="8">2</spell>
+        <spell level="9">1</spell>
+      </player>
+      <player level="19">
+        <spell level="0">9</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">3</spell>
+        <spell level="7">3</spell>
+        <spell level="8">3</spell>
+        <spell level="9">2</spell>
+      </player>
+      <player level="20">
+        <spell level="0">9</spell>
+        <spell level="1">5</spell>
+        <spell level="2">5</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">3</spell>
+        <spell level="7">3</spell>
+        <spell level="8">3</spell>
+        <spell level="9">3</spell>
+      </player>
+    </spells>
+  </class>
+  
+  <class name="Guerrier" epic="no">
+    <prerequisites></prerequisites>
+    <life_point_dice>10</life_point_dice>
+    <attack_base_bonus>high</attack_base_bonus>
+    <reflex_base_bonus>weak</reflex_base_bonus> 
+    <fortitude_base_bonus>high</fortitude_base_bonus>
+    <will_base_bonus>weak</will_base_bonus>        
+    <alignment type="obligation">none</alignment>
+    <class_advantages>
+      <advantage level="0">mdac</advantage>
+      <advantage level="0">mdag</advantage>
+      <advantage level="0">mdb</advantage>
+      <advantage level="0">pdale</advantage>
+      <advantage level="0">pdai</advantage>
+      <advantage level="0">pdalo</advantage>
+      <advantage level="1">donS</advantage>
+      <advantage level="2">donS</advantage>
+      <advantage level="4">donS</advantage>
+      <advantage level="6">donS</advantage>
+      <advantage level="8">donS</advantage>
+      <advantage level="10">donS</advantage>
+      <advantage level="12">donS</advantage>
+      <advantage level="14">donS</advantage>
+      <advantage level="16">donS</advantage>
+      <advantage level="18">donS</advantage>
+      <advantage level="20">donS</advantage>
+    </class_advantages>
+    <skill_points>
+      <starting_multiplier>4</starting_multiplier>
+      <level_increase>2</level_increase>
+    </skill_points>
+    <class_skills>
+      <skill>artisanat</skill>
+      <skill>dressage</skill>
+      <skill>équitation</skill>
+      <skill>escalade</skill>
+      <skill>intimidation</skill>
+      <skill>natation</skill>
+      <skill>saut</skill>
+    </class_skills>
+    <spells allowed="no"></spells>
+  </class>
+  
+  <class name="Magicien" epic="no">
+    <prerequisites></prerequisites>
+    <life_point_dice>4</life_point_dice>
+    <attack_base_bonus>weak</attack_base_bonus>
+    <reflex_base_bonus>weak</reflex_base_bonus> 
+    <fortitude_base_bonus>weak</fortitude_base_bonus>
+    <will_base_bonus>high</will_base_bonus>        
+    <alignment type="obligation">none</alignment>
+    <class_advantages>
+      <advantage level="0">apf</advantage>
+      <advantage level="0">ecP</advantage>
+      <advantage level="0">mdam</advantage>
+      <advantage level="5">donS</advantage>
+      <advantage level="10">donS</advantage>
+      <advantage level="15">donS</advantage>
+      <advantage level="20">donS</advantage>
+    </class_advantages>
+    <skill_points>
+      <starting_multiplier>4</starting_multiplier>
+      <level_increase>2</level_increase>
+    </skill_points>
+    <class_skills>
+      <skill>art de la magie</skill>
+      <skill>artisanat</skill>
+      <skill>concentration</skill>
+      <skill>déchiffrage</skill>
+      <skill>profession</skill>
+    </class_skills>
+    <spells allowed="yes" attribute="int">
+      <player level="1">
+        <spell level="0">3</spell>
+        <spell level="1">1</spell>
+      </player>
+      <player level="2">
+        <spell level="0">4</spell>
+        <spell level="1">2</spell>
+      </player>
+      <player level="3">
+        <spell level="0">4</spell>
+        <spell level="1">2</spell>
+        <spell level="2">1</spell>
+      </player>
+      <player level="4">
+        <spell level="0">4</spell>
+        <spell level="1">3</spell>
+        <spell level="2">2</spell>
+      </player>
+      <player level="5">
+        <spell level="0">4</spell>
+        <spell level="1">3</spell>
+        <spell level="2">2</spell>
+        <spell level="3">1</spell>
+      </player>
+      <player level="6">
+        <spell level="0">4</spell>
+        <spell level="1">3</spell>
+        <spell level="2">3</spell>
+        <spell level="3">2</spell>
+      </player>
+      <player level="7">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">3</spell>
+        <spell level="3">2</spell>
+        <spell level="4">1</spell>
+      </player>
+      <player level="8">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">3</spell>
+        <spell level="3">3</spell>
+        <spell level="4">2</spell>
+      </player>
+      <player level="9">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">3</spell>
+        <spell level="4">2</spell>
+        <spell level="5">1</spell>
+      </player>
+      <player level="10">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">3</spell>
+        <spell level="4">3</spell>
+        <spell level="5">2</spell>
+      </player>
+      <player level="11">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">3</spell>
+        <spell level="5">2</spell>
+        <spell level="6">1</spell>
+      </player>
+      <player level="12">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">3</spell>
+        <spell level="5">3</spell>
+        <spell level="6">2</spell>
+      </player>
+      <player level="13">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">3</spell>
+        <spell level="6">2</spell>
+        <spell level="7">1</spell>
+      </player>
+      <player level="14">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">3</spell>
+        <spell level="6">3</spell>
+        <spell level="7">2</spell>
+      </player>
+      <player level="15">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">3</spell>
+        <spell level="7">2</spell>
+        <spell level="8">1</spell>
+      </player>
+      <player level="16">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">3</spell>
+        <spell level="7">3</spell>
+        <spell level="8">2</spell>
+      </player>
+      <player level="17">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">4</spell>
+        <spell level="7">3</spell>
+        <spell level="8">2</spell>
+        <spell level="9">1</spell>
+      </player>
+      <player level="18">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">4</spell>
+        <spell level="7">3</spell>
+        <spell level="8">3</spell>
+        <spell level="9">2</spell>
+      </player>
+      <player level="19">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">4</spell>
+        <spell level="7">4</spell>
+        <spell level="8">3</spell>
+        <spell level="9">3</spell>
+      </player>
+      <player level="20">
+        <spell level="0">4</spell>
+        <spell level="1">4</spell>
+        <spell level="2">4</spell>
+        <spell level="3">4</spell>
+        <spell level="4">4</spell>
+        <spell level="5">4</spell>
+        <spell level="6">4</spell>
+        <spell level="7">4</spell>
+        <spell level="8">4</spell>
+        <spell level="9">4</spell>
+      </player>
+    </spells>
+  </class>
+  
+  <class name="Moine" epic="no">
+    <prerequisites></prerequisites>
+    <life_point_dice>8</life_point_dice>
+    <attack_base_bonus>mean</attack_base_bonus>
+    <reflex_base_bonus>high</reflex_base_bonus> 
+    <fortitude_base_bonus>high</fortitude_base_bonus>
+    <will_base_bonus>high</will_base_bonus>        
+    <alignment type="obligation">loyal</alignment>
+    <class_advantages>
+      <advantage level="0">mdamo</advantage>
+      <advantage level="0">camn</advantage>
+      <advantage level="0">ddc</advantage>
+      <advantage level="1">donS</advantage>
+      <advantage level="2">donS</advantage>
+      <advantage level="2">esqTot</advantage>
+      <advantage level="3">serenite</advantage>
+      <advantage level="4">fKi</advantage>
+      <advantage level="4">cr</advantage>
+      <advantage level="5">purePhy</advantage>
+      <advantage level="6">cr</advantage>
+      <advantage level="6">donS</advantage>
+      <advantage level="6">bCA</advantage>
+      <advantage level="7">plenPhy</advantage>
+      <advantage level="8">cr</advantage>
+      <advantage level="9">esqExt</advantage>
+      <advantage level="10">cr</advantage>
+      <advantage level="10">fKi</advantage>
+      <advantage level="10">bCA</advantage>
+      <advantage level="11">corDia</advantage>
+      <advantage level="11">delSup</advantage>
+      <advantage level="12">cr</advantage>
+      <advantage level="12">pChasse</advantage>
+      <advantage level="13">ameDia</advantage>
+      <advantage level="14">cr</advantage>
+      <advantage level="15">pauVib</advantage>
+      <advantage level="15">bCA</advantage>
+      <advantage level="16">cr</advantage>
+      <advantage level="16">fKi</advantage>
+      <advantage level="17">eterJ</advantage>
+      <advantage level="17">langues</advantage>
+      <advantage level="18">cr</advantage>
+      <advantage level="19">desAme</advantage>
+      <advantage level="20">perfEtre</advantage>
+      <advantage level="20">cr</advantage>
+      <advantage level="20">bCA</advantage>
+    </class_advantages>
+    <skill_points>
+      <starting_multiplier>4</starting_multiplier>
+      <level_increase>4</level_increase>
+    </skill_points>
+    <class_skills>
+      <skill>acrobatie</skill>
+      <skill>artisanat</skill>
+      <skill>concentration</skill>
+      <skill>connaissances (mystères)</skill>
+      <skill>connaissances (religion)</skill>
+      <skill>déplacement silencieux</skill>
+      <skill>détection</skill>
+      <skill>diplomatie</skill>
+      <skill>discrétion</skill>
+      <skill>équilibre</skill>
+      <skill>escalade</skill>
+      <skill>évasion</skill>
+      <skill>natation</skill>
+      <skill>perception auditive</skill>
+      <skill>profession</skill>
+      <skill>psychologie</skill>
+      <skill>représentation</skill>
+      <skill>saut</skill>
+    </class_skills>
+    <spells allowed="no"></spells>
+  </class>
+  
+  <class name="Paladin" epic="no">
+    <prerequisites></prerequisites>
+    <life_point_dice>10</life_point_dice>
+    <attack_base_bonus>high</attack_base_bonus>
+    <reflex_base_bonus>weak</reflex_base_bonus> 
+    <fortitude_base_bonus>high</fortitude_base_bonus>
+    <will_base_bonus>weak</will_base_bonus>        
+    <alignment type="obligation">loyal bon</alignment>
+    <class_advantages>
+      <advantage level="0">mdac</advantage>
+      <advantage level="0">mdag</advantage>
+      <advantage level="0">mdb</advantage>
+      <advantage level="0">pdale</advantage>
+      <advantage level="0">pdai</advantage>
+      <advantage level="0">pdalo</advantage>
+      <advantage level="1">auraBien</advantage>
+      <advantage level="1">chMal</advantage>
+      <advantage level="1">detMal</advantage>
+      <advantage level="2">gDiv</advantage>
+      <advantage level="2">impMain</advantage>
+      <advantage level="3">auBra</advantage>
+      <advantage level="3">sanDiv</advantage>
+      <advantage level="4">renMV</advantage>
+      <advantage level="5">chMal</advantage>
+      <advantage level="5">destPal</advantage>
+      <advantage level="6">gueMal</advantage>
+      <advantage level="9">gueMal</advantage>
+      <advantage level="10">chMal</advantage>
+      <advantage level="12">gueMal</advantage>
+      <advantage level="15">gueMal</advantage>
+      <advantage level="15">chMal</advantage>
+      <advantage level="18">gueMal</advantage>
+      <advantage level="20">chMal</advantage>
+    </class_advantages>
+    <skill_points>
+      <starting_multiplier>4</starting_multiplier>
+      <level_increase>4</level_increase>
+    </skill_points>
+    <class_skills>
+      <skill>artisanat</skill>
+      <skill>concentration</skill>
+      <skill>connaissances (noblesse et royauté)</skill>
+      <skill>connaissances (religion)</skill>
+      <skill>diplomatie</skill>
+      <skill>dressage</skill>
+      <skill>équitation</skill>
+      <skill>premiers secours</skill>
+      <skill>profession</skill>
+      <skill>psychologie</skill>
+    </class_skills>
+    <spells allowed="yes" attribute="wis">
+      <player level="6">
+        <spell level="1">1</spell>
+      </player>
+      <player level="7">
+        <spell level="1">1</spell>
+      </player>
+      <player level="8">
+        <spell level="1">1</spell>
+      </player>
+      <player level="9">
+        <spell level="1">1</spell>
+      </player>
+      <player level="10">
+        <spell level="1">1</spell>
+        <spell level="2">1</spell>
+      </player>
+      <player level="11">
+        <spell level="1">1</spell>
+        <spell level="2">1</spell>
+      </player>
+      <player level="12">
+        <spell level="1">1</spell>
+        <spell level="2">1</spell>
+        <spell level="3">1</spell>
+      </player>
+      <player level="13">
+        <spell level="1">1</spell>
+        <spell level="2">1</spell>
+        <spell level="3">1</spell>
+      </player>
+      <player level="14">
+        <spell level="1">2</spell>
+        <spell level="2">1</spell>
+        <spell level="3">1</spell>
+      </player>
+      <player level="15">
+        <spell level="1">2</spell>
+        <spell level="2">1</spell>
+        <spell level="3">1</spell>
+        <spell level="4">1</spell>
+      </player>
+      <player level="16">
+        <spell level="1">2</spell>
+        <spell level="2">2</spell>
+        <spell level="3">1</spell>
+        <spell level="4">1</spell>
+      </player>
+      <player level="17">
+        <spell level="1">2</spell>
+        <spell level="2">2</spell>
+        <spell level="3">2</spell>
+        <spell level="4">1</spell>
+      </player>
+      <player level="18">
+        <spell level="1">3</spell>
+        <spell level="2">2</spell>
+        <spell level="3">2</spell>
+        <spell level="4">1</spell>
+      </player>
+      <player level="19">
+        <spell level="1">3</spell>
+        <spell level="2">3</spell>
+        <spell level="3">3</spell>
+        <spell level="4">2</spell>
+      </player>
+      <player level="20">
+        <spell level="1">3</spell>
+        <spell level="2">3</spell>
+        <spell level="3">3</spell>
+        <spell level="4">3</spell>
+      </player>
+    </spells>
+  </class>
+  
+  <class name="Pretre" epic="no">
+    <prerequisites></prerequisites>
+    <life_point_dice>8</life_point_dice>
+    <attack_base_bonus>mean</attack_base_bonus>
+    <reflex_base_bonus>weak</reflex_base_bonus> 
+    <fortitude_base_bonus>high</fortitude_base_bonus>
+    <will_base_bonus>high</will_base_bonus>        
+    <alignment type="obligation">selon le dieu</alignment>
+    <class_advantages>
+      <advantage level="0">mdac</advantage>
+      <advantage level="0">mdb</advantage>
+      <advantage level="0">pdale</advantage>
+      <advantage level="0">pdai</advantage>
+      <advantage level="0">pdalo</advantage>
+      <advantage level="0">dom</advantage>
+      <advantage level="0">dom</advantage>
+      <advantage level="0">div</advantage>
+      <advantage level="1">renMV</advantage>
+    </class_advantages>
+    <skill_points>
+      <starting_multiplier>4</starting_multiplier>
+      <level_increase>2</level_increase>
+    </skill_points>
+    <class_skills>
+      <skill>art de la magie</skill>
+      <skill>artisanat</skill>
+      <skill>concentration</skill>
+      <skill>connaissances (histoire)</skill>
+      <skill>connaissances (mystères)</skill>
+      <skill>connaissances (plans)</skill>
+      <skill>connaissances (religion)</skill>
+      <skill>diplomatie</skill>
+      <skill>premiers secours</skill>
+      <skill>profession</skill>
+    </class_skills>
+    <spells allowed="yes" attribute="wis">
+      <player level="1">
+        <spell level="0">3</spell>
+        <spell level="1">1</spell>
+        <spell level="1" spec="domain">1</spell>
+      </player>
+      <player level="2">
+        <spell level="0">4</spell>
+        <spell level="1">2</spell>
+        <spell level="1" spec="domain">1</spell>
+      </player>
+      <player level="3">
+        <spell level="0">4</spell>
+        <spell level="1">2</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">1</spell>
+        <spell level="2" spec="domain">1</spell>
+      </player>
+      <player level="4">
+        <spell level="0">5</spell>
+        <spell level="1">3</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">2</spell>
+        <spell level="2" spec="domain">1</spell>
+      </player>
+      <player level="5">
+        <spell level="0">5</spell>
+        <spell level="1">3</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">2</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">1</spell>
+        <spell level="3" spec="domain">1</spell>
+      </player>
+      <player level="6">
+        <spell level="0">5</spell>
+        <spell level="1">3</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">3</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">2</spell>
+        <spell level="3" spec="domain">1</spell>
+      </player>
+      <player level="7">
+        <spell level="0">6</spell>
+        <spell level="1">4</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">3</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">2</spell>
+        <spell level="3" spec="domain">1</spell>
+        <spell level="4">1</spell>
+        <spell level="4" spec="domain">1</spell>
+      </player>
+      <player level="8">
+        <spell level="0">6</spell>
+        <spell level="1">4</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">3</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">3</spell>
+        <spell level="3" spec="domain">1</spell>
+        <spell level="4">2</spell>
+        <spell level="4" spec="domain">1</spell>
+      </player>
+      <player level="9">
+        <spell level="0">6</spell>
+        <spell level="1">4</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">4</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">3</spell>
+        <spell level="3" spec="domain">1</spell>
+        <spell level="4">2</spell>
+        <spell level="4" spec="domain">1</spell>
+        <spell level="5">1</spell>
+        <spell level="5" spec="domain">1</spell>
+      </player>
+      <player level="10">
+        <spell level="0">6</spell>
+        <spell level="1">4</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">4</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">3</spell>
+        <spell level="3" spec="domain">1</spell>
+        <spell level="4">2</spell>
+        <spell level="4" spec="domain">1</spell>
+        <spell level="5">2</spell>
+        <spell level="5" spec="domain">1</spell>
+      </player>
+      <player level="11">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">4</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">4</spell>
+        <spell level="3" spec="domain">1</spell>
+        <spell level="4">3</spell>
+        <spell level="4" spec="domain">1</spell>
+        <spell level="5">2</spell>
+        <spell level="5" spec="domain">1</spell>
+        <spell level="6">1</spell>
+        <spell level="6" spec="domain">1</spell>
+      </player>
+      <player level="12">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">4</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">4</spell>
+        <spell level="3" spec="domain">1</spell>
+        <spell level="4">3</spell>
+        <spell level="4" spec="domain">1</spell>
+        <spell level="5">3</spell>
+        <spell level="5" spec="domain">1</spell>
+        <spell level="6">2</spell>
+        <spell level="6" spec="domain">1</spell>
+      </player>
+      <player level="13">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">5</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">4</spell>
+        <spell level="3" spec="domain">1</spell>
+        <spell level="4">4</spell>
+        <spell level="4" spec="domain">1</spell>
+        <spell level="5">3</spell>
+        <spell level="5" spec="domain">1</spell>
+        <spell level="6">2</spell>
+        <spell level="6" spec="domain">1</spell>
+        <spell level="7">1</spell>
+        <spell level="7" spec="domain">1</spell>
+      </player>
+      <player level="14">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">5</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">4</spell>
+        <spell level="3" spec="domain">1</spell>
+        <spell level="4">4</spell>
+        <spell level="4" spec="domain">1</spell>
+        <spell level="5">3</spell>
+        <spell level="5" spec="domain">1</spell>
+        <spell level="6">3</spell>
+        <spell level="6" spec="domain">1</spell>
+        <spell level="7">2</spell>
+        <spell level="7" spec="domain">1</spell>
+      </player>
+      <player level="15">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">5</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">5</spell>
+        <spell level="3" spec="domain">1</spell>
+        <spell level="4">4</spell>
+        <spell level="4" spec="domain">1</spell>
+        <spell level="5">4</spell>
+        <spell level="5" spec="domain">1</spell>
+        <spell level="6">3</spell>
+        <spell level="6" spec="domain">1</spell>
+        <spell level="7">2</spell>
+        <spell level="7" spec="domain">1</spell>
+        <spell level="8">1</spell>
+        <spell level="8" spec="domain">1</spell>
+      </player>
+      <player level="16">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">5</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">5</spell>
+        <spell level="3" spec="domain">1</spell>
+        <spell level="4">4</spell>
+        <spell level="4" spec="domain">1</spell>
+        <spell level="5">4</spell>
+        <spell level="5" spec="domain">1</spell>
+        <spell level="6">3</spell>
+        <spell level="6" spec="domain">1</spell>
+        <spell level="7">3</spell>
+        <spell level="7" spec="domain">1</spell>
+        <spell level="8">2</spell>
+        <spell level="8" spec="domain">1</spell>
+      </player>
+      <player level="17">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">5</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">5</spell>
+        <spell level="3" spec="domain">1</spell>
+        <spell level="4">5</spell>
+        <spell level="4" spec="domain">1</spell>
+        <spell level="5">4</spell>
+        <spell level="5" spec="domain">1</spell>
+        <spell level="6">4</spell>
+        <spell level="6" spec="domain">1</spell>
+        <spell level="7">3</spell>
+        <spell level="7" spec="domain">1</spell>
+        <spell level="8">2</spell>
+        <spell level="8" spec="domain">1</spell>
+        <spell level="9">1</spell>
+        <spell level="9" spec="domain">1</spell>
+      </player>
+      <player level="18">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">5</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">5</spell>
+        <spell level="3" spec="domain">1</spell>
+        <spell level="4">5</spell>
+        <spell level="4" spec="domain">1</spell>
+        <spell level="5">4</spell>
+        <spell level="5" spec="domain">1</spell>
+        <spell level="6">4</spell>
+        <spell level="6" spec="domain">1</spell>
+        <spell level="7">3</spell>
+        <spell level="7" spec="domain">1</spell>
+        <spell level="8">3</spell>
+        <spell level="8" spec="domain">1</spell>
+        <spell level="9">2</spell>
+        <spell level="9" spec="domain">1</spell>
+      </player>
+      <player level="19">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">5</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">5</spell>
+        <spell level="3" spec="domain">1</spell>
+        <spell level="4">5</spell>
+        <spell level="4" spec="domain">1</spell>
+        <spell level="5">5</spell>
+        <spell level="5" spec="domain">1</spell>
+        <spell level="6">4</spell>
+        <spell level="6" spec="domain">1</spell>
+        <spell level="7">4</spell>
+        <spell level="7" spec="domain">1</spell>
+        <spell level="8">3</spell>
+        <spell level="8" spec="domain">1</spell>
+        <spell level="9">3</spell>
+        <spell level="9" spec="domain">1</spell>
+      </player>
+      <player level="20">
+        <spell level="0">6</spell>
+        <spell level="1">5</spell>
+        <spell level="1" spec="domain">1</spell>
+        <spell level="2">5</spell>
+        <spell level="2" spec="domain">1</spell>
+        <spell level="3">5</spell>
+        <spell level="3" spec="domain">1</spell>
+        <spell level="4">5</spell>
+        <spell level="4" spec="domain">1</spell>
+        <spell level="5">5</spell>
+        <spell level="5" spec="domain">1</spell>
+        <spell level="6">4</spell>
+        <spell level="6" spec="domain">1</spell>
+        <spell level="7">4</spell>
+        <spell level="7" spec="domain">1</spell>
+        <spell level="8">4</spell>
+        <spell level="8" spec="domain">1</spell>
+        <spell level="9">4</spell>
+        <spell level="9" spec="domain">1</spell>
+      </player>
+    </spells>
+  </class>
+  
+  <class name="Rodeur" epic="no">
+    <prerequisites></prerequisites>
+    <life_point_dice>8</life_point_dice>
+    <attack_base_bonus>high</attack_base_bonus>
+    <reflex_base_bonus>high</reflex_base_bonus> 
+    <fortitude_base_bonus>high</fortitude_base_bonus>
+    <will_base_bonus>weak</will_base_bonus>        
+    <alignment type="obligation">none</alignment>
+    <class_advantages>
+      <advantage level="0">mdac</advantage>
+      <advantage level="0">mdag</advantage>
+      <advantage level="0">mdb</advantage>
+      <advantage level="0">pdale</advantage>
+      <advantage level="1">empSau</advantage>
+      <advantage level="1">ennJur</advantage>
+      <advantage level="1">pist</advantage>
+      <advantage level="2">styCom</advantage>
+      <advantage level="3">endu</advantage>
+      <advantage level="4">compAn</advantage>
+      <advantage level="5">ennJur</advantage>
+      <advantage level="6">scStyCom</advantage>
+      <advantage level="7">depFac</advantage>
+      <advantage level="8">pistAcc</advantage>
+      <advantage level="9">esqTot</advantage>
+      <advantage level="10">ennJur</advantage>
+      <advantage level="11">meStyCom</advantage>
+      <advantage level="13">camou</advantage>
+      <advantage level="15">ennJur</advantage>
+      <advantage level="17">discTot</advantage>
+      <advantage level="20">ennJur</advantage>
+    </class_advantages>
+    <skill_points>
+      <starting_multiplier>4</starting_multiplier>
+      <level_increase>6</level_increase>
+    </skill_points>
+    <class_skills>
+      <skill>artisanat</skill>
+      <skill>concentration</skill>
+      <skill>connaissances (exploration souterraine)</skill>
+      <skill>connaissances (géographie)</skill>
+      <skill>connaissances (nature)</skill>
+      <skill>déplacement silencieux</skill>
+      <skill>détection</skill>
+      <skill>discrétion</skill>
+      <skill>dressage</skill>
+      <skill>équitation</skill>
+      <skill>escalade</skill>
+      <skill>fouille</skill>
+      <skill>maitrise des cordes</skill>
+      <skill>natation</skill>
+      <skill>perception auditive</skill>
+      <skill>premiers secours</skill>
+      <skill>profession</skill>
+      <skill>saut</skill>
+      <skill>survie</skill>
+    </class_skills>
+    <spells allowed="yes" attribute="wis">
+      <player level="6">
+        <spell level="1">1</spell>
+      </player>
+      <player level="7">
+        <spell level="1">1</spell>
+      </player>
+      <player level="8">
+        <spell level="1">1</spell>
+      </player>
+      <player level="9">
+        <spell level="1">1</spell>
+      </player>
+      <player level="10">
+        <spell level="1">1</spell>
+        <spell level="2">1</spell>
+      </player>
+      <player level="11">
+        <spell level="1">1</spell>
+        <spell level="2">1</spell>
+      </player>
+      <player level="12">
+        <spell level="1">1</spell>
+        <spell level="2">1</spell>
+        <spell level="3">1</spell>
+      </player>
+      <player level="13">
+        <spell level="1">1</spell>
+        <spell level="2">1</spell>
+        <spell level="3">1</spell>
+      </player>
+      <player level="14">
+        <spell level="1">2</spell>
+        <spell level="2">1</spell>
+        <spell level="3">1</spell>
+      </player>
+      <player level="15">
+        <spell level="1">2</spell>
+        <spell level="2">1</spell>
+        <spell level="3">1</spell>
+        <spell level="4">1</spell>
+      </player>
+      <player level="16">
+        <spell level="1">2</spell>
+        <spell level="2">2</spell>
+        <spell level="3">1</spell>
+        <spell level="4">1</spell>
+      </player>
+      <player level="17">
+        <spell level="1">2</spell>
+        <spell level="2">2</spell>
+        <spell level="3">2</spell>
+        <spell level="4">1</spell>
+      </player>
+      <player level="18">
+        <spell level="1">3</spell>
+        <spell level="2">2</spell>
+        <spell level="3">2</spell>
+        <spell level="4">1</spell>
+      </player>
+      <player level="19">
+        <spell level="1">3</spell>
+        <spell level="2">3</spell>
+        <spell level="3">3</spell>
+        <spell level="4">2</spell>
+      </player>
+      <player level="20">
+        <spell level="1">3</spell>
+        <spell level="2">3</spell>
+        <spell level="3">3</spell>
+        <spell level="4">3</spell>
+      </player>
+    </spells>
+  </class>
+  
+  <class name="Roublard" epic="no">
+    <prerequisites></prerequisites>
+    <life_point_dice>6</life_point_dice>
+    <attack_base_bonus>mean</attack_base_bonus>
+    <reflex_base_bonus>high</reflex_base_bonus> 
+    <fortitude_base_bonus>weak</fortitude_base_bonus>
+    <will_base_bonus>weak</will_base_bonus>        
+    <alignment type="obligation">none</alignment>
+    <class_advantages>
+      <advantage level="0">mdac</advantage>
+      <advantage level="0">mdar</advantage>
+      <advantage level="0">pdale</advantage>
+      <advantage level="0">rdp</advantage>
+      <advantage level="1">attSou</advantage>
+      <advantage level="2">esqTot</advantage>
+      <advantage level="3">attSou</advantage>
+      <advantage level="3">sensDP</advantage>
+      <advantage level="4">esqInst</advantage>
+      <advantage level="5">attSou</advantage>
+      <advantage level="6">sendDP</advantage>
+      <advantage level="7">attSou</advantage>
+      <advantage level="8">esqInstSup</advantage>
+      <advantage level="9">attSou</advantage>
+      <advantage level="9">sensDP</advantage>
+      <advantage level="10">pouSpe</advantage>
+      <advantage level="11">attSou</advantage>
+      <advantage level="12">sensDP</advantage>
+      <advantage level="13">attSou</advantage>
+      <advantage level="13">pouSpe</advantage>
+      <advantage level="15">attSou</advantage>
+      <advantage level="15">sensDP</advantage>
+      <advantage level="16">pouSpe</advantage>
+      <advantage level="17">attSou</advantage>
+      <advantage level="18">sensDP</advantage>
+      <advantage level="19">attSou</advantage>
+      <advantage level="19">pouSpe</advantage>
+    </class_advantages>
+    <skill_points>
+      <starting_multiplier>4</starting_multiplier>
+      <level_increase>8</level_increase>
+    </skill_points>
+    <class_skills>
+      <skill>acrobatie</skill>
+      <skill>artisanat</skill>
+      <skill>bluff</skill>
+      <skill>connaissances (folklore local)</skill>
+      <skill>contrefacon</skill>
+      <skill>crochetage</skill>
+      <skill>décryptage</skill>
+      <skill>déguisement</skill>
+      <skill>désamorcage et sabotage</skill>
+      <skill>détection</skill>
+      <skill>diplomatie</skill>
+      <skill>discrétion</skill>
+      <skill>équilibre</skill>
+      <skill>escalade</skill>
+      <skill>escamotage</skill>
+      <skill>estimation</skill>
+      <skill>évasion</skill>
+      <skill>fouille</skill>
+      <skill>intimidation</skill>
+      <skill>maitrise des cordes</skill>
+      <skill>natation</skill>
+      <skill>perception auditive</skill>
+      <skill>profession</skill>
+      <skill>psychologie</skill>
+      <skill>renseignements</skill>
+      <skill>représentation</skill>
+      <skill>saut</skill>
+      <skill>utilisation d'objets magiques</skill>
+    </class_skills>
+    <spells allowed="no"></spells>
+  </class>
+
+</classes>

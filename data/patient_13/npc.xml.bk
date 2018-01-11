@@ -1,0 +1,211 @@
+<p13npc>
+  
+  <npc type="supervisor">
+    <name>Le directeur</name>
+    <office>Bât. du directeur</office>
+    <secret>Il est une créature démoniaque gouvernée par des voix intérieures. Il pense rêver l'hôpital et est convaincu d'être le patient originel, Morgue.</secret>
+    <OHS>oui</OHS>
+    <patients>
+      <name>aucun</name>
+    </patients>
+    <notes>
+      <note>Environ 50 ans</note>
+      <note>Il mène parfois des inspections surprises craintes de tous les patients.</note>
+      <note>Personne ne connaît son vrai nom... pas même lui.</note>
+      <note>Il parle d'une voix rauque et caverneuse tout en gardant sa bouche fermée.</note>
+      <note>Sa vraie bouche, garnie de dents acérées, se trouve sur son torse.</note>
+      <note>Quand il s'enerve, ses yeux deviennent totalement noirs.</note>
+      <note>"Vous allez malheureusement nous contraindre à sévir."</note>
+      <note>"Je veux bien vous laisser une dernière chance mais il faudra me rendre un petit service."</note>
+    </notes>
+    <allies>
+      <ally>none</ally>
+    </allies>
+    <ennemies>
+      <ennemy>none</ennemy>
+    </ennemies>    
+  </npc>
+  
+  <npc type="supervisor">
+    <name>Butcher</name>
+    <office>A15,S13</office>
+    <secret>Il a fait de Vador une mère porteuse pour ce qu'il espère être un être de folie pure.</secret>
+    <OHS>oui</OHS>
+    <patients>
+      <name>Vador</name>
+    </patients>
+    <notes>
+      <note>Environ 40 ans</note>
+      <note>Ses seuls patients sont des morts, qu'ils le soient ou qu'ils soient des cobayes.</note>
+      <note>Il dissèque des cerveaux persuadé d'y trouver une déformation physique cause de la folie.</note>
+      <note>Il est surnommé Mr. Lobotomie.</note>
+      <note>La vie des patients n'a aucune valeur à ses yeux.</note>
+      <note>"Voyons, c'est un hopital ici, pas une prison."</note>
+      <note>"Appelez-moi professeur."</note>
+    </notes>
+    <allies>
+      <ally>none</ally>
+    </allies>
+    <ennemies>
+      <ennemy>none</ennemy>
+    </ennemies>    
+  </npc>
+  
+  <npc type="supervisor">
+    <name>Kemper</name>
+    <office>A5</office>
+    <secret>Il s'est servi de sa position influente pour y faire entrer son fils Harold comme blouse blanche. Celui-ci a fini étranglé par les patients inconnus. Kemper ne cherche depuis que la vengeance.</secret>
+    <OHS>oui</OHS>
+    <patients>
+      <name>Défiguré</name>
+      <name>Les frères</name>
+      <name>Marie</name>
+      <name>Pierre</name>
+    </patients>
+    <notes>
+      <note>Environ 40 ans</note>
+      <note>Aucun patient n'est véritablement innocent à ses yeux.</note>
+      <note>Les patients l'appellent Grimace à cause de la déformation de son visage.</note>
+      <note>Il a un ton strict et militaire, cherche à tout prix le respect.</note>
+      <note>Sadique et patient, il aime prendre son temps pour regarder et avant de parler aux patients.</note>
+      <note>"Il faut etre patient."</note>
+    </notes>
+    <allies>
+      <ally>none</ally>
+    </allies>
+    <ennemies>
+      <ennemy>none</ennemy>
+    </ennemies>
+  </npc>
+  
+  <npc type="supervisor">
+    <name>Marche</name>
+    <office>A6</office>
+    <secret>Perd toute contenance à la référence de sa mère devenue folle. Chef de l'O.D..</secret>
+    <OHS>oui</OHS>
+    <patients>
+      <name>Béquille</name>
+      <name>Clef</name>
+      <name>Gord</name>
+      <name>Zed</name>
+      <name>Cochon</name>
+    </patients>
+    <notes>
+      <note>Environ 40 ans</note>
+      <note>Eleve 4 grosses truies dans son bureau, ses "filles".</note>
+      <note>Ne regarde jamais le patient dans les yeux.</note>
+      <note>N'est méchant que par nécessité et est effrayé par le directeur.</note>
+      <note>Possède beaucoup de livre sur les relations avec les patients.</note>
+      <note>"Désolé, ne faites pas attention à mes filles, elles ne sont pas bien méchantes si on les embête pas."</note>
+      <note>"Je suis désolé, mais c'est pour votre bien."</note>
+    </notes>
+    <allies>
+      <ally>none</ally>
+    </allies>
+    <ennemies>
+      <ennemy>none</ennemy>
+    </ennemies>
+  </npc>
+  
+  <npc type="supervisor">
+    <name>Vigorsen</name>
+    <office>B12</office>
+    <secret>Sa machine à écrire lui parle et est devenue son amie.</secret>
+    <OHS>oui</OHS>
+    <patients>
+      <name>Le fou</name>
+      <name>Livre</name>
+      <name>Monsieur Clous</name>
+      <name>Phenix</name>
+      <name>Cromagnon</name>
+    </patients>
+    <notes>
+      <note>35 ans</note>
+      <note>Les ordres données par la machine sont de plus en plus étranges et Vigorsent les suit aveuglément.</note>
+      <note>Femme rousse, 1m70, tailleur strict.</note>
+      <note>La santé et les remèdes par la volonté, ce qu'elle s'applique avec soin.</note>
+      <note>Elle marche pied nu dans son bureau dont le sol est tapissé de bouts de verre brisé.</note>
+      <note>Répète les propos des patients en changeants quelques mots.</note>
+      <note>Se contente de oui ou de non pour répondre, hautaine mais courtoise.</note>
+      <note>"Je comprends."</note>
+      <note>"Je vois."</note>
+    </notes>
+    <allies>
+      <ally>none</ally>
+    </allies>
+    <ennemies>
+      <ennemy>none</ennemy>
+    </ennemies>
+  </npc>
+  
+  <npc type="supervisor">
+    <name>Morgenstern</name>
+    <office>B13</office>
+    <secret>Ancien patient, supérieur de garde la nuit.</secret>
+    <OHS>non</OHS>
+    <patients>
+      <name>Aucun en particulier</name>
+    </patients>
+    <notes>
+      <note>Environ 50 ans</note>
+      <note>1m90, peau noire, toujours habillé d'une chemise et d'un pantalon à bretelles.</note>
+      <note>Ne travaille que la nuit, jamais avec ses collègues.</note>
+      <note>Persuadé qu'il est toujours interné dans une sorte de tests glauque.</note>
+      <note>Répète tout ce qu'il entend pour trouver la phrase clef qui va tout révéler.</note>
+      <note>Ne fait rien d'autre que tout répéter.</note>
+    </notes>
+    <allies>
+      <ally>none</ally>
+    </allies>
+    <ennemies>
+      <ennemy>none</ennemy>
+    </ennemies>
+  </npc>
+  
+  <npc type="supervisor">
+    <name>Stein</name>
+    <office>A16</office>
+    <secret>Veut réunir tous les objets d'un vieux cliché sépia pour ressuciter quelqu'un.</secret>
+    <OHS>oui</OHS>
+    <patients>
+      <name>Chakra</name>
+      <name>Le cagoulé</name>
+      <name>Mime</name>
+      <name>Morgane</name>
+    </patients>
+    <notes>
+      <note>Environ 70 ans</note>
+      <note>Toujours accompagné par sa "création", une blouse blanche muette appelée Frank.</note>
+      <note>Ce sont les Jekyll et Hyde de l'hopital.</note>
+      <note>Il est irritable et irrespectueux envers les patients.</note>
+      <note>Fatigué et tout le temps semblant s'ennuyer.</note>
+      <note>Il se moque des patients et laisse Franck faire les prescriptions, souvent mauvaises.</note>
+      <note>"Vous avez, moi aussi j'étais un cancre dans ma jeunesse mais je me suis pris en main et voilà où j'en suis maintenant."</note>
+      <note>"Faites des efforts et vous aussi vous réussirez."</note>
+      <note>"Nous savons tous les deux que, au fond de vous, vous aimez bien cet environnement strict qui vous sécurise."</note>
+    </notes>
+    <allies>
+      <ally>none</ally>
+    </allies>
+    <ennemies>
+      <ennemy>none</ennemy>
+    </ennemies>
+  </npc>
+  
+  <npc type="patient">
+    <name>Marie</name>
+    <room>testR</room>
+    <supervisor>Butcher</supervisor>
+    <secret>testS</secret>
+    <notes>
+      <note>testN</note>
+    </notes>
+    <allies>
+      <ally>testA</ally>
+    </allies>
+    <ennemies>
+      <ennemy>testE</ennemy>
+    </ennemies>
+  </npc>
+  
+</p13npc>

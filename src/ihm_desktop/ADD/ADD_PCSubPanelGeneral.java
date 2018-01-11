@@ -1,0 +1,294 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ihm_desktop.ADD;
+
+import java.awt.Dimension;
+import java.util.ArrayList;
+import javax.swing.DefaultListModel;
+
+/**
+ *
+ * @author nicolas
+ */
+public class ADD_PCSubPanelGeneral extends javax.swing.JPanel {
+
+  /**
+   * Creates new form ADD_PCSubPanel
+   */
+  public ADD_PCSubPanelGeneral() {
+    initComponents();
+    
+    setSize(232,284);
+    setVisible(true);
+    
+    jlblStrength.setPreferredSize(new Dimension(100,14));
+    jlblStrength.setMinimumSize(new Dimension(100,14));
+    jlblStrength.setMaximumSize(new Dimension(100,14));
+    jlblAgility.setPreferredSize(new Dimension(100,14));
+    jlblAgility.setMinimumSize(new Dimension(100,14));
+    jlblAgility.setMaximumSize(new Dimension(100,14));
+    jlblConstitution.setPreferredSize(new Dimension(100,14));
+    jlblConstitution.setMinimumSize(new Dimension(100,14));
+    jlblConstitution.setMaximumSize(new Dimension(100,14));
+    jlblWisdom.setPreferredSize(new Dimension(100,14));
+    jlblWisdom.setMinimumSize(new Dimension(100,14));
+    jlblWisdom.setMaximumSize(new Dimension(100,14));
+    jlblIntelligence.setPreferredSize(new Dimension(100,14));
+    jlblIntelligence.setMinimumSize(new Dimension(100,14));
+    jlblIntelligence.setMaximumSize(new Dimension(100,14));
+    jlblCharisma.setPreferredSize(new Dimension(100,14));
+    jlblCharisma.setMinimumSize(new Dimension(100,14));
+    jlblCharisma.setMaximumSize(new Dimension(100,14));
+    jlblLife.setPreferredSize(new Dimension(100,14));
+    jlblLife.setMinimumSize(new Dimension(100,14));
+    jlblLife.setMaximumSize(new Dimension(100,14));
+    
+    jlblXP.setPreferredSize(new Dimension(80,14));
+    jlblXP.setMinimumSize(new Dimension(80,14));
+    jlblXP.setMaximumSize(new Dimension(80,14));
+    jlblArmorClass.setPreferredSize(new Dimension(80,14));
+    jlblArmorClass.setMinimumSize(new Dimension(80,14));
+    jlblArmorClass.setMaximumSize(new Dimension(80,14));
+    
+    jlblAlignement.setPreferredSize(new Dimension(200,14));
+    jlblAlignement.setMinimumSize(new Dimension(200,14));
+    jlblAlignement.setMaximumSize(new Dimension(200,14));
+    
+    jlblAttackBonus.setPreferredSize(new Dimension(90,14));
+    jlblAttackBonus.setMinimumSize(new Dimension(90,14));
+    jlblAttackBonus.setMaximumSize(new Dimension(90,14));
+    jlblReflexSave.setPreferredSize(new Dimension(90,14));
+    jlblReflexSave.setMinimumSize(new Dimension(90,14));
+    jlblReflexSave.setMaximumSize(new Dimension(90,14));
+    jlblDeathSave.setPreferredSize(new Dimension(90,14));
+    jlblDeathSave.setMinimumSize(new Dimension(90,14));
+    jlblDeathSave.setMaximumSize(new Dimension(90,14));
+    
+    jlblWillSave.setPreferredSize(new Dimension(100,14));
+    jlblWillSave.setMinimumSize(new Dimension(100,14));
+    jlblWillSave.setMaximumSize(new Dimension(100,14));
+    jlblFortitudeSave.setPreferredSize(new Dimension(100,14));
+    jlblFortitudeSave.setMinimumSize(new Dimension(100,14));
+    jlblFortitudeSave.setMaximumSize(new Dimension(100,14));
+    jlblMagicResistance.setPreferredSize(new Dimension(100,14));
+    jlblMagicResistance.setMinimumSize(new Dimension(100,14));
+    jlblMagicResistance.setMaximumSize(new Dimension(100,14));
+    
+  }
+  
+  public void setLabels(int str, int mstr, int agi, int magi, int con, int mcon, int intel, 
+          int mintel, int wis, int mwis, int cha, int mcha, int ac, int xp, int lp, int maxlp, 
+          int ab, int rs, int ws, int fs, int ds, int rm, ArrayList<String> classes, String align, 
+          String deity){
+
+    jlblStrength.setText("Str: " + str + " (" + mstr + ")");
+    jlblAgility.setText("Agi: " + agi + " (" + magi + ")");
+    jlblConstitution.setText("Con: " + con + " (" + mcon + ")");
+    jlblWisdom.setText("Wis: " + wis + " (" + mwis + ")");
+    jlblIntelligence.setText("Int: " + intel + " (" + mintel + ")");
+    jlblCharisma.setText("Char: " + cha + " (" + mcha + ")");
+    
+    jlblXP.setText("XP: " + xp); // TODO: xp needed to next level
+    jlblArmorClass.setText("AC: " + ac);
+    jlblLife.setText("Life: " + lp + "/" + maxlp);
+    
+    jlblAttackBonus.setText("AB: " + ab);
+    jlblReflexSave.setText("Reflex: " + rs);
+    jlblWillSave.setText("Will: " + ws);
+    jlblFortitudeSave.setText("Fortitude: " + fs);
+    jlblDeathSave.setText("Death: " + ds);
+    jlblMagicResistance.setText("Mag.Resist: " + rm);
+    
+    jlblAlignement.setText("Alignment:" + align + " (" + deity + ")");
+    
+    DefaultListModel model = new DefaultListModel();
+    for(int i = 0 ; i < classes.size() ; i += 2 ){
+      model.addElement(classes.get(i) + " (" + classes.get(i+1) + ")");
+    }
+    jlistClasses.setModel(model);
+  }
+
+  /**
+   * This method is called from within the constructor to initialize the form.
+   * WARNING: Do NOT modify this code. The content of this method is always
+   * regenerated by the Form Editor.
+   */
+  @SuppressWarnings("unchecked")
+  // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+  private void initComponents() {
+
+    jlblXP = new javax.swing.JLabel();
+    jlblStrength = new javax.swing.JLabel();
+    jlblAgility = new javax.swing.JLabel();
+    jlblConstitution = new javax.swing.JLabel();
+    jlblWisdom = new javax.swing.JLabel();
+    jlblIntelligence = new javax.swing.JLabel();
+    jlblCharisma = new javax.swing.JLabel();
+    jScrollPane1 = new javax.swing.JScrollPane();
+    jlistClasses = new javax.swing.JList<>();
+    jlblLife = new javax.swing.JLabel();
+    jlblAlignement = new javax.swing.JLabel();
+    jlblAttackBonus = new javax.swing.JLabel();
+    jlblReflexSave = new javax.swing.JLabel();
+    jlblWillSave = new javax.swing.JLabel();
+    jlblFortitudeSave = new javax.swing.JLabel();
+    jlblDeathSave = new javax.swing.JLabel();
+    jlblArmorClass = new javax.swing.JLabel();
+    jlblMagicResistance = new javax.swing.JLabel();
+
+    setEnabled(false);
+    setMaximumSize(new java.awt.Dimension(232, 284));
+    setMinimumSize(new java.awt.Dimension(232, 284));
+    setPreferredSize(new java.awt.Dimension(232, 284));
+
+    jlblXP.setText("XP: ");
+
+    jlblStrength.setText("Strength:");
+    jlblStrength.setMaximumSize(new java.awt.Dimension(113, 14));
+    jlblStrength.setPreferredSize(new java.awt.Dimension(113, 14));
+
+    jlblAgility.setText("Agility: ");
+    jlblAgility.setMaximumSize(new java.awt.Dimension(113, 14));
+    jlblAgility.setPreferredSize(new java.awt.Dimension(113, 14));
+
+    jlblConstitution.setText("Constitution: ");
+    jlblConstitution.setMaximumSize(new java.awt.Dimension(113, 14));
+    jlblConstitution.setPreferredSize(new java.awt.Dimension(113, 14));
+
+    jlblWisdom.setText("Wisdom: ");
+    jlblWisdom.setMaximumSize(new java.awt.Dimension(113, 14));
+    jlblWisdom.setPreferredSize(new java.awt.Dimension(113, 14));
+
+    jlblIntelligence.setText("Intelligence: ");
+    jlblIntelligence.setMaximumSize(new java.awt.Dimension(113, 14));
+    jlblIntelligence.setPreferredSize(new java.awt.Dimension(113, 14));
+
+    jlblCharisma.setText("Charisma: ");
+    jlblCharisma.setMaximumSize(new java.awt.Dimension(113, 14));
+    jlblCharisma.setPreferredSize(new java.awt.Dimension(113, 14));
+
+    jScrollPane1.setViewportView(jlistClasses);
+
+    jlblLife.setText("Life:");
+    jlblLife.setMaximumSize(new java.awt.Dimension(113, 14));
+    jlblLife.setPreferredSize(new java.awt.Dimension(113, 14));
+
+    jlblAlignement.setText("Alignement: ");
+    jlblAlignement.setMaximumSize(new java.awt.Dimension(113, 14));
+    jlblAlignement.setPreferredSize(new java.awt.Dimension(113, 14));
+
+    jlblAttackBonus.setText("AB: ");
+
+    jlblReflexSave.setText("Reflex: ");
+
+    jlblWillSave.setText("Will:");
+
+    jlblFortitudeSave.setText("Fortitude:");
+
+    jlblDeathSave.setText("Death: ");
+
+    jlblArmorClass.setText("AC:");
+
+    jlblMagicResistance.setText("Mag. Res:");
+
+    javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+    this.setLayout(layout);
+    layout.setHorizontalGroup(
+      layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGroup(layout.createSequentialGroup()
+        .addContainerGap()
+        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+          .addComponent(jlblIntelligence, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+          .addComponent(jlblCharisma, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+          .addComponent(jlblConstitution, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+          .addComponent(jlblWisdom, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+          .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)
+          .addGroup(layout.createSequentialGroup()
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+              .addComponent(jlblDeathSave, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+              .addComponent(jlblReflexSave, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 90, Short.MAX_VALUE)
+              .addComponent(jlblAttackBonus, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGap(18, 18, 18)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+              .addComponent(jlblWillSave, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+              .addComponent(jlblFortitudeSave, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+              .addComponent(jlblMagicResistance, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+          .addComponent(jlblAlignement, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+          .addGroup(layout.createSequentialGroup()
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+              .addComponent(jlblStrength, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+              .addComponent(jlblAgility, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+              .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                .addComponent(jlblLife, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE)))
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+              .addComponent(jlblXP, javax.swing.GroupLayout.DEFAULT_SIZE, 80, Short.MAX_VALUE)
+              .addComponent(jlblArmorClass, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+        .addContainerGap())
+    );
+    layout.setVerticalGroup(
+      layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGroup(layout.createSequentialGroup()
+        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+          .addComponent(jlblXP)
+          .addComponent(jlblLife, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+          .addComponent(jlblStrength, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+          .addComponent(jlblArmorClass))
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(jlblAgility, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(jlblConstitution, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(jlblWisdom, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(jlblIntelligence, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(jlblCharisma, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(jlblAlignement, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+          .addComponent(jlblAttackBonus)
+          .addComponent(jlblWillSave))
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+          .addComponent(jlblReflexSave)
+          .addComponent(jlblFortitudeSave, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+          .addComponent(jlblDeathSave)
+          .addComponent(jlblMagicResistance))
+        .addContainerGap(15, Short.MAX_VALUE))
+    );
+  }// </editor-fold>//GEN-END:initComponents
+
+
+  // Variables declaration - do not modify//GEN-BEGIN:variables
+  private javax.swing.JScrollPane jScrollPane1;
+  private javax.swing.JLabel jlblAgility;
+  private javax.swing.JLabel jlblAlignement;
+  private javax.swing.JLabel jlblArmorClass;
+  private javax.swing.JLabel jlblAttackBonus;
+  private javax.swing.JLabel jlblCharisma;
+  private javax.swing.JLabel jlblConstitution;
+  private javax.swing.JLabel jlblDeathSave;
+  private javax.swing.JLabel jlblFortitudeSave;
+  private javax.swing.JLabel jlblIntelligence;
+  private javax.swing.JLabel jlblLife;
+  private javax.swing.JLabel jlblMagicResistance;
+  private javax.swing.JLabel jlblReflexSave;
+  private javax.swing.JLabel jlblStrength;
+  private javax.swing.JLabel jlblWillSave;
+  private javax.swing.JLabel jlblWisdom;
+  private javax.swing.JLabel jlblXP;
+  private javax.swing.JList<String> jlistClasses;
+  // End of variables declaration//GEN-END:variables
+}

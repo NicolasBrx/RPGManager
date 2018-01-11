@@ -1,0 +1,40 @@
+<spells>
+  
+   <!-- 
+  <spell id="">
+    <name></name>
+    <class></class>
+    <level></level>
+    <school></school>
+    <description></description>
+    <prerequisite></prerequisite>
+  </spell>    
+  
+  -->
+  
+  <spell id="InvMons1">
+    <name>Invocation de Monstres 01</name>
+    <class>Magicien</class>
+    <level>1</level>
+    <school>Invocation</school>
+    <description>Invoque 3D6 monstres de niveau 1</description>
+    <prerequisite>none</prerequisite>
+  </spell>  
+  <spell id="Priere">
+    <name>Priere</name>
+    <class>Magicien</class>
+    <level>1</level>
+    <school>ecole test</school>
+    <description>Fait une priere...</description>
+    <prerequisite>none</prerequisite>
+  </spell>  
+  <spell id="Benediction">
+    <name>Benediction</name>
+    <class>Magicien</class>
+    <level>2</level>
+    <school>ecore teste</school>
+    <description>Demande la benediction d'un dieu apres une priere, c'est mieux</description>
+    <prerequisite>aucun</prerequisite>
+  </spell>  
+  
+</spells>
