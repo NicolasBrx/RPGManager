@@ -2,7 +2,6 @@ package ihm_desktop.PATIENT;
 
 import ihm_desktop.MainFrame;
 import java.util.ArrayList;
-import java.util.Iterator;
 import javax.swing.DefaultListModel;
 import javax.swing.SwingUtilities;
 import javax.swing.text.BadLocationException;
